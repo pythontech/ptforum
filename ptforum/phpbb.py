@@ -1,5 +1,4 @@
 #=======================================================================
-#	$Id: phpbb.py,v 1.4 2010/06/09 14:19:36 pythontech Exp $
 #	Scrape phpBB forum pages
 #	Converted from smf2.py and perl PythonTech::PhpBB
 #=======================================================================
@@ -9,7 +8,7 @@ import ptforum
 import ptforum.soup as soup
 
 class Site(ptforum.Site):
-    '''Site which uses ppBB'''
+    '''Site which uses phpBB'''
 
     def login(self, username, password):
         '''Post login credentials (needed to view some forums)'''
