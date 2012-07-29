@@ -1,6 +1,5 @@
 #=======================================================================
-#       $Id: __init__.py,v 1.4 2012/07/14 17:42:37 pythontech Exp $
-#	Generic forum site, subclassable
+#	Generic forum and site, subclassable
 #=======================================================================
 import logging
 import os
@@ -11,9 +10,6 @@ import urllib2
 import cookielib
 
 _logger = logging.getLogger('ptforum')
-
-class SubclassError(Exception):
-    pass
 
 class Site:
     def __init__(self, baseUrl=None, cacheDir=None, 
@@ -46,23 +42,23 @@ class Site:
 
     def login(self, username, password):
         '''Post login credentials (needed to view some forums).'''
-        raise SubclassError, '%s needs to implement login method' % self.__class__
+        raise NotImplementedError, '%s needs to implement login method' % self.__class__
 
     def get_forum_page(self, forum):
         '''Get the main page for a forum, containing a list of topics.'''
-        raise SubclassError, '%s needs to implement get_forum_page method' % self.__class__
+        raise NotImplementedError, '%s needs to implement get_forum_page method' % self.__class__
 
     def forum_page_topics(self, forum, html):
 	'''Find all the topics on a forum page.'''
-        raise SubclassError, '%s needs to implenment forum_page_topics method' % self.__class__
+        raise NotImplementedError, '%s needs to implement forum_page_topics method' % self.__class__
 
     def get_topic_page(self, topic):
         '''Get main page of topic, containing list of posts.'''
-        raise SubclassError, '%s needs to implement get_topic_page method' % self.__class__
+        raise NotImplementedError, '%s needs to implement get_topic_page method' % self.__class__
 
     def topic_page_posts(self, topic, html):
 	'''Scan a topic page and get a list of posts.'''
-        raise SubclassError, '%s needs to implement topic_page_posts method' % self.__class__
+        raise NotImplementedError, '%s needs to implement topic_page_posts method' % self.__class__
 
     def forum_post_as_email(self, forum, post):
 	'''Convert a post to email'''
@@ -202,6 +198,9 @@ class Forum:
 
     def state_load(self):
 	'''Load topic details from persistent store'''
+        if not os.path.exists(self.savefile):
+            _logger.warning('Skipping missing savefile %s', self.savefile)
+            return
 	save = open(self.savefile)
 	topics = {}
 	topicRE = re.compile(r'topic (\d+) firstpost=(\d*) lastpost=(\d*)')
