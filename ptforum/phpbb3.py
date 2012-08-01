@@ -69,57 +69,58 @@ class Site(ptforum.Site):
          <div class="paging ...">
           <span>
            <a href="./viewforum.php?f=35&start=25">2</a>
+        N.B. There may be more than one <ul class="topiclist topics"> 
         '''
 	topics = []
 	doc = soup.BeautifulSoup(html, convertEntities='html')
-        index = doc.find(soup.tagclass('ul', 'topics'))
-        for li in index.findAll('li'):
-            _logger.debug('-- li %s', li['class'])
-            dl = li.find('dl')
-            dt = dl.find('dt')
-            title = tid = replies = author = lastpost = None
-            topica = dt.find(soup.tagclass('a','topictitle'))
-            if topica:
-                title = soup.cdata(topica)
-                _logger.info('TITLE %s', title)
-                href = topica['href']
-                m = t_nRE.search(href)
-                if m:
-                    tid = m.group(1)
-                    _logger.info('TID %s', tid)
-                else:
-                    _logger.warn('** no tid')
-            for dd in dl.findAll('dd'):
-                dfn = dd.find('dfn')
-                if not dfn:
-                    a = dd.find('a')
-                    href = a['href']
-                    if 'memberlist.php' in href.split('?')[0]:
-                        author = soup.cdata(a)
-                        _logger.info('AUTHOR %s', author)
-                else:
-                    text = soup.cdata(dfn)
-                    if 'Replies' in text:
-                        replies = soup.cdata(dd).split()[0]
-                        _logger.info('REPLIES %s', replies)
-                    elif 'Last post' in text:
-                        _logger.debug('-- Last post')
-                        for a in dd.findAll('a'):
-                            href = a['href']
-                            if 'viewtopic.php' in href.split('?')[0]:
-                                m = t_nRE.search(href)
-                                if m:
-                                    lastpost = m.group(1)
-                                    _logger.info('LASTPOST %s', lastpost)
-                                else:
-                                    _logger.warn('** no lastpost')
-	    # Create or update topic
-	    topic = forum.topic_find(tid)
-	    topic.title = title
-	    topic.author = author
-	    topic.replies = replies
+        for index in doc.findAll(soup.tagclass('ul', 'topics')):
+            for li in index.findAll('li'):
+                _logger.debug('-- li %s', li['class'])
+                dl = li.find('dl')
+                dt = dl.find('dt')
+                title = tid = replies = author = lastpost = None
+                topica = dt.find(soup.tagclass('a','topictitle'))
+                if topica:
+                    title = soup.cdata(topica)
+                    _logger.info('TITLE %s', title)
+                    href = topica['href']
+                    m = t_nRE.search(href)
+                    if m:
+                        tid = m.group(1)
+                        _logger.info('TID %s', tid)
+                    else:
+                        _logger.warn('** no tid')
+                for dd in dl.findAll('dd'):
+                    dfn = dd.find('dfn')
+                    if not dfn:
+                        a = dd.find('a')
+                        href = a['href']
+                        if 'memberlist.php' in href.split('?')[0]:
+                            author = soup.cdata(a)
+                            _logger.info('AUTHOR %s', author)
+                    else:
+                        text = soup.cdata(dfn)
+                        if 'Replies' in text:
+                            replies = soup.cdata(dd).split()[0]
+                            _logger.info('REPLIES %s', replies)
+                        elif 'Last post' in text:
+                            _logger.debug('-- Last post')
+                            for a in dd.findAll('a'):
+                                href = a['href']
+                                if 'viewtopic.php' in href.split('?')[0]:
+                                    m = t_nRE.search(href)
+                                    if m:
+                                        lastpost = m.group(1)
+                                        _logger.info('LASTPOST %s', lastpost)
+                                    else:
+                                        _logger.warn('** no lastpost')
+                # Create or update topic
+                topic = forum.topic_find(tid)
+                topic.title = title
+                topic.author = author
+                topic.replies = replies
 
-	    topics.append(topic)
+                topics.append(topic)
 	return topics
 
     def topic_page_posts(self, topic, html):
