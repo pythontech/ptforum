@@ -108,6 +108,41 @@ class TestSmf2(unittest.TestCase):
         subj1 = mail_header_dict(site.forum_post_as_email(forum, posts[0]))['subject']
         self.assertEqual(subj1, '[ex2] FAQ: Should I trust/follow the advice I get in this forum?')
 
+class TestPhpbb3(unittest.TestCase):
+    def test_topics(self):
+        import ptforum.phpbb
+        site = FakePhpbb3Site(fakedir='testdata/phpbb3',
+                              baseUrl='http://phpbb3.example.com',
+                              fromPattern='%u@example.com')
+        forum = ptforum.phpbb3.Forum(site=site, forumId='35',
+                                     savefile='testdata/phpbb3.save',
+                                     subjectPrefix='[ex] ',
+                                     recipient='nobody')
+        fpage = site.get_forum_page(forum)
+        self.assertTrue('</html>' in fpage)
+        topics = site.forum_page_topics(forum, fpage)
+        self.assertEqual(len(topics), 25)
+        topic = topics[2]
+        self.assertEqual(topic.tid, '28017')
+        self.assertEqual(topic.title, 'omxplayer playing from pipe / standard input on Raspbian')
+        tpage = site.get_topic_page(topic)
+        self.assertTrue('</html>' in tpage)
+        posts = site.topic_page_posts(topic, tpage)
+        post = posts[2]
+        self.assertEqual(post.pid, '248948')
+        self.assertEqual(post.topic, topic)
+        self.assertEqual(post.author, 'Max')
+        self.assertEqual(post.datetime, 1357161720)
+        self.assertEqual(post.body[:30], 'Ran into the same issue a whil')
+        mail = site.forum_post_as_email(forum, post)
+        #print repr(mail)
+        hdrs = mail_header_dict(mail)
+        self.assertEqual(hdrs['from'], 'Max@example.com')
+        self.assertEqual(hdrs['to'], 'nobody')
+        self.assertEqual(hdrs['message-id'], '<248948@phpbb3.example.com>')
+        subj1 = mail_header_dict(site.forum_post_as_email(forum, posts[0]))['subject']
+        self.assertEqual(subj1, '[ex] omxplayer playing from pipe / standard input on Raspbian')
+
 def mail_header_dict(mail):
     hdrtext = mail.split('\n\n')[0]
     hdrs = {}

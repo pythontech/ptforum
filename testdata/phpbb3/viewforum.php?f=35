@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="" />
+<meta name="viewport" content="width=device-width" />
+
+
+<title>Raspberry Pi &bull; View forum - Media centres</title>
+	
+<link rel="shortcut icon" href="http://www.raspberrypi.org/favicon.ico" type="image/vnd.microsoft.icon"/>
+<link rel="icon" href="http://www.raspberrypi.org/favicon.ico" type="image/x-ico"/>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<link rel="stylesheet" type="text/css" media="all" href="./styles/raspite/theme/style.css" />
+<link rel="stylesheet" type="text/css" href="./styles/raspite/theme/css/bootstrap-raspi.css">
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="./styles/raspite/theme/css/ie7.css">
+<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Asap:700|Chivo:900|Signika:700' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]>
+<script src="./styles/raspite/theme/js/html5shiv.js"></script>
+<![endif]-->
+<link rel="pingback" href="" />
+
+<link rel="alternate" type="application/atom+xml" title="Feed - Raspberry Pi" href="http://www.raspberrypi.org/phpBB3/feed.php" /><link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="http://www.raspberrypi.org/phpBB3/feed.php?mode=topics" /><link rel="alternate" type="application/atom+xml" title="Feed - Forum - Media centres" href="http://www.raspberrypi.org/phpBB3/feed.php?f=35" />
+
+
+<script type="text/javascript">
+// <![CDATA[
+	var jump_page = 'Enter the page number you wish to go to:';
+	var on_page = '1';
+	var per_page = '25';
+	var base_url = './viewforum.php?f=35&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2';
+	var style_cookie = 'phpBBstyle';
+	var style_cookie_settings = '; path=/; domain=.raspberrypi.org';
+	var onload_functions = new Array();
+	var onunload_functions = new Array();
+
+	
+
+	/**
+	* Find a member
+	*/
+	function find_username(url)
+	{
+		popup(url, 760, 570, '_usersearch');
+		return false;
+	}
+
+	/**
+	* New function for handling multiple calls to window.onload and window.unload by pentapenguin
+	*/
+	window.onload = function()
+	{
+		for (var i = 0; i < onload_functions.length; i++)
+		{
+			eval(onload_functions[i]);
+		}
+	};
+
+	window.onunload = function()
+	{
+		for (var i = 0; i < onunload_functions.length; i++)
+		{
+			eval(onunload_functions[i]);
+		}
+	};
+
+// ]]>
+</script>
+<link href="./styles/raspite/theme/stylesheet.css" rel="stylesheet" type="text/css" media="screen, projection" />
+
+
+
+</head>
+
+<body>
+<a name="top"></a>
+
+<header class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<!-- Cross-site Navigation -->
+<nav class="container" role="navigation">
+			<h3 class="assistive-text">Main menu</h3>
+			<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+			<div class="nav pull-right">
+				<ul id="menu-main-menu" class="nav">
+					<li id="menu-item-1" class="menu-item"><a href="http://raspberrypi.org/" accesskey="h">News</a></li>
+					<li id="menu-item-76" class="menu-item menu-item-76"><a href="./index.php?sid=f0087b4d3c04fcec23ecce162c4d10f2" accesskey="h">Forum</a></li>
+					<li id="menu-item-77" class="menu-item menu-item-77"><a href="http://www.raspberrypi.org/about">About</a></li>
+				</ul>
+					
+				<ul id="menu-sub-menu" class="nav">
+					<li id="menu-item-79" class="menu-item menu-item-79"><a href="http://www.raspberrypi.org/faqs">FAQ</a></li>
+					<li id="menu-item-80" class="menu-item menu-item-80"><a href="http://www.raspberrypi.org/downloads">Download</a></li>
+					<li id="menu-item-92" class="menu-item menu-item-92"><a href="http://www.raspberrypi.org/quick-start-guide">Quick Start</a></li>
+					<li id="menu-item-2" class="menu-item menu-item-2"><a href="http://www.raspberrypi.org/wiki-2">Wiki</a></li>
+					<li id="menu-item-3" class="menu-item menu-item-3"><a href="http://www.raspberrypi.org/trademark-rules">™ Info</a></li>
+				</ul>
+			</div>
+			<a class="nav-logo" href="http://raspberrypi.org/" title="Raspberry Pi" rel="home">Raspberry Pi</a>
+		</nav>
+	</div>
+</header>
+
+<div class="container">
+	
+	<div class="row-fluid searchbar">
+		<div class="span6">
+		<a href="./faq.php?sid=f0087b4d3c04fcec23ecce162c4d10f2" title="Frequently Asked Questions">FAQ</a>
+		<a href="./ucp.php?mode=register&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">Register</a>
+			<a href="./ucp.php?mode=login&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" title="Login" accesskey="x">Login</a>
+			
+		</div>
+		<div class="span6 text-right">
+			
+			<form action="./search.php?sid=f0087b4d3c04fcec23ecce162c4d10f2" method="get" id="search" class="form-search" style="display:inline-block; *display:inline; zoom:1;">
+				<input name="keywords" id="keywords" type="text" maxlength="128" title="Search for keywords" class="search-query input-small" value="Search…" onclick="if(this.value=='Search…')this.value='';" onblur="if(this.value=='')this.value='Search…';" />
+				<button class="btn" value="Search" type="submit" title="Search"><i class="icon icon-search"></i></button>
+				<input type="hidden" name="sid" value="f0087b4d3c04fcec23ecce162c4d10f2" />
+
+			</form>
+		
+		</div>
+	</div>
+	
+</div>
+
+<a name="content"></a>
+<div class="container" role="main">
+
+<div class="row-fluid">
+	<div class="span9">
+		<h2><a href="./viewforum.php?f=35&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">Media centres</a></h2>
+	</div>
+	
+</div>
+
+
+<br>
+<div class="row-fluid">
+	<div class="topic-actions span6">
+	
+		<a href="./posting.php?mode=post&amp;f=35&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="btn btn-info">Post a new topic</a> 
+	 </div>
+	
+	
+	<div class="paging span6 text-right">
+		694 topics   <a href="#" onclick="jumpto(); return false;" title="Click to jump to page…">Page <strong>1</strong> of <strong>28</strong></a>   <span><strong>1</strong><span class="page-sep">, </span><a href="./viewforum.php?f=35&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=25">2</a><span class="page-sep">, </span><a href="./viewforum.php?f=35&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=50">3</a><span class="page-sep">, </span><a href="./viewforum.php?f=35&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=75">4</a><span class="page-sep">, </span><a href="./viewforum.php?f=35&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=100">5</a><span class="page-dots"> ... </span><a href="./viewforum.php?f=35&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=675">28</a></span>
+	</div>
+	
+</div>
+
+<br>
+
+	<ul class="topiclist status">
+		<li class="header">
+			<dl class="row-fluid">
+				<dt class="span5">Forum</dt>
+				<dd class="text-right span1">Replies</dd>
+				<dd class="text-right span1">Views</dd>
+				<dd class="text-right span2">Author</dd>
+				<dd class="text-right span3">Last post</dd>
+			</dl>
+		</li>
+	</ul>
+	
+	<ul class="topiclist topics">
+	
+
+		<li class="row  bg1">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=20714&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">OpenElec Builds with GUI 1080p.</a><div class="paging"><span><a href="./viewtopic.php?f=35&amp;t=20714&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=35&amp;t=20714&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=25">2</a></span></div>
+				</dt>
+				
+				<dd class="text-right span1">42 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">8043 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=34044&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">rbej</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=8104&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">milhouse</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=20714&amp;p=249788&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249788"><time class="date" datetime="Z">Thu Jan 03, 2013 7:35 pm</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg2">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=6803&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">SqueezePlug for Raspberry Pi ready for download</a><div class="paging"><span><a href="./viewtopic.php?f=35&amp;t=6803&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">1</a><span class="page-dots"> ... </span><a href="./viewtopic.php?f=35&amp;t=6803&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=300">13</a><span class="page-sep">, </span><a href="./viewtopic.php?f=35&amp;t=6803&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=325">14</a><span class="page-sep">, </span><a href="./viewtopic.php?f=35&amp;t=6803&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=350">15</a></span></div><img src="./styles/prosilver/imageset/icon_topic_attach.gif" width="7" height="10" alt="Attachment(s)" title="Attachment(s)" /> 
+				</dt>
+				
+				<dd class="text-right span1">350 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">39478 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=13082&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">truehl</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=379&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">Paul Webster</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=6803&amp;p=249771&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249771"><time class="date" datetime="Z">Thu Jan 03, 2013 7:04 pm</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg1">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=28017&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">omxplayer playing from pipe / standard input on Raspbian</a>
+				</dt>
+				
+				<dd class="text-right span1">4 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">74 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=46698&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">madman_xxx</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=3713&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">Max</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=28017&amp;p=249760&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249760"><time class="date" datetime="Z">Thu Jan 03, 2013 6:50 pm</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg2">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=28071&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">Video Player for Bowser</a>
+				</dt>
+				
+				<dd class="text-right span1">4 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">66 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=49851&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">craigvansant</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=4948&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">ghans</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=28071&amp;p=249759&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249759"><time class="date" datetime="Z">Thu Jan 03, 2013 6:50 pm</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg1">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=28150&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">Pandora Pi - Pandora Streamer with Airplay</a>
+				</dt>
+				
+				<dd class="text-right span1">0 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">27 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=49977&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">dangerbyca</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=49977&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">dangerbyca</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=28150&amp;p=249743&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249743"><time class="date" datetime="Z">Thu Jan 03, 2013 6:33 pm</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg2">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=27523&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">Scaling and moving video on omxplayer</a>
+				</dt>
+				
+				<dd class="text-right span1">4 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">157 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=49035&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">kolive</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=49035&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">kolive</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=27523&amp;p=249587&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249587"><time class="date" datetime="Z">Thu Jan 03, 2013 3:48 pm</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg1">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=24171&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">Raspbmc &amp; HD44780 LCD</a>
+				</dt>
+				
+				<dd class="text-right span1">3 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">488 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=39554&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">adamrblack</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=5087&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">maddogdave</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=24171&amp;p=249517&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249517"><time class="date" datetime="Z">Thu Jan 03, 2013 2:31 pm</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg2">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=27751&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">SqueezePlug Version 6 available</a><div class="paging"><span><a href="./viewtopic.php?f=35&amp;t=27751&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=35&amp;t=27751&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=25">2</a><span class="page-sep">, </span><a href="./viewtopic.php?f=35&amp;t=27751&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=50">3</a><span class="page-sep">, </span><a href="./viewtopic.php?f=35&amp;t=27751&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=75">4</a></span></div><img src="./styles/prosilver/imageset/icon_topic_attach.gif" width="7" height="10" alt="Attachment(s)" title="Attachment(s)" /> 
+				</dt>
+				
+				<dd class="text-right span1">76 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">1693 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=13082&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">truehl</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=49429&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">phil001</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=27751&amp;p=249460&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249460"><time class="date" datetime="Z">Thu Jan 03, 2013 1:28 pm</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg1">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=7490&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">AirPlay</a><div class="paging"><span><a href="./viewtopic.php?f=35&amp;t=7490&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=35&amp;t=7490&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=25">2</a></span></div>
+				</dt>
+				
+				<dd class="text-right span1">35 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">13634 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=19433&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">themacks</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=49900&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">zanthius</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=7490&amp;p=249413&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249413"><time class="date" datetime="Z">Thu Jan 03, 2013 12:35 pm</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg2">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=27969&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">No audio through HDMI with raspbmc</a>
+				</dt>
+				
+				<dd class="text-right span1">2 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">129 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=21197&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">mattanl</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=3824&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">NickMon68</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=27969&amp;p=249348&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249348"><time class="date" datetime="Z">Thu Jan 03, 2013 11:25 am</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg1">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=27759&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">OpenELEC/XBMC and 7.1 AAC</a>
+				</dt>
+				
+				<dd class="text-right span1">1 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">238 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=17251&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">LastSilmaril</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=5084&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">elatllat</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=27759&amp;p=249323&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249323"><time class="date" datetime="Z">Thu Jan 03, 2013 10:48 am</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg2">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=27621&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">running Last.fm on the Pi?</a>
+				</dt>
+				
+				<dd class="text-right span1">1 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">108 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=47344&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">Ephoras</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=5084&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">elatllat</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=27621&amp;p=249293&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249293"><time class="date" datetime="Z">Thu Jan 03, 2013 10:21 am</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg1">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=20445&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">Audio popping; OpenELEC, XBMC, or Pi problem?</a>
+				</dt>
+				
+				<dd class="text-right span1">17 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">3457 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=39215&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">MarkTheMorose</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=48662&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">pitt</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=20445&amp;p=249255&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249255"><time class="date" datetime="Z">Thu Jan 03, 2013 9:34 am</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg2">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=27961&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">Best media format</a>
+				</dt>
+				
+				<dd class="text-right span1">2 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">154 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=40079&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">bonesai</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=40079&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">bonesai</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=27961&amp;p=249186&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249186"><time class="date" datetime="Z">Thu Jan 03, 2013 7:41 am</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg1">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=28018&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">Raspberry as media server</a>
+				</dt>
+				
+				<dd class="text-right span1">5 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">325 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=37563&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">mcgyver83</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=6153&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">trixor</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=28018&amp;p=249179&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249179"><time class="date" datetime="Z">Thu Jan 03, 2013 7:02 am</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg2">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=19799&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">SqueezePlug Version 5 ready for download</a><div class="paging"><span><a href="./viewtopic.php?f=35&amp;t=19799&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">1</a><span class="page-dots"> ... </span><a href="./viewtopic.php?f=35&amp;t=19799&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=400">17</a><span class="page-sep">, </span><a href="./viewtopic.php?f=35&amp;t=19799&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=425">18</a><span class="page-sep">, </span><a href="./viewtopic.php?f=35&amp;t=19799&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=450">19</a></span></div><img src="./styles/prosilver/imageset/icon_topic_attach.gif" width="7" height="10" alt="Attachment(s)" title="Attachment(s)" /> 
+				</dt>
+				
+				<dd class="text-right span1">456 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">21649 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=13082&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">truehl</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=13082&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">truehl</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=19799&amp;p=249141&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249141"><time class="date" datetime="Z">Thu Jan 03, 2013 3:49 am</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg1">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=28062&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">How to get XBMC and Navi X on my RPi??</a>
+				</dt>
+				
+				<dd class="text-right span1">0 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">113 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=30324&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">purelife</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=30324&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">purelife</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=28062&amp;p=249106&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249106"><time class="date" datetime="Z">Thu Jan 03, 2013 1:20 am</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg2">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=27866&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">Pi as a Media Player on a network</a>
+				</dt>
+				
+				<dd class="text-right span1">4 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">517 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=49531&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">tricky4a</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=47567&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">svenbo</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=27866&amp;p=249094&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249094"><time class="date" datetime="Z">Thu Jan 03, 2013 12:53 am</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg1">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=7167&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">OpenELEC Testbuilds</a><div class="paging"><span><a href="./viewtopic.php?f=35&amp;t=7167&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">1</a><span class="page-dots"> ... </span><a href="./viewtopic.php?f=35&amp;t=7167&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=700">29</a><span class="page-sep">, </span><a href="./viewtopic.php?f=35&amp;t=7167&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=725">30</a><span class="page-sep">, </span><a href="./viewtopic.php?f=35&amp;t=7167&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=750">31</a></span></div><img src="./styles/prosilver/imageset/icon_topic_attach.gif" width="7" height="10" alt="Attachment(s)" title="Attachment(s)" /> 
+				</dt>
+				
+				<dd class="text-right span1">765 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">82571 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=12239&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">sraue</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=24574&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">Trixster</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=7167&amp;p=249081&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249081"><time class="date" datetime="Z">Thu Jan 03, 2013 12:22 am</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg2">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=26207&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">get_iplayer  rtmpdump does not support SWF Verif</a>
+				</dt>
+				
+				<dd class="text-right span1">3 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">250 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=22043&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">cogarooni</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=49814&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">mister_t</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=26207&amp;p=249032&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249032"><time class="date" datetime="Z">Wed Jan 02, 2013 11:01 pm</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg1">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=27653&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">Tuner not showing up in Tvheadend...</a>
+				</dt>
+				
+				<dd class="text-right span1">1 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">118 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=11710&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">poplap</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=49815&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">jhenley01</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=27653&amp;p=249019&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p249019"><time class="date" datetime="Z">Wed Jan 02, 2013 10:50 pm</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg2">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=27390&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">xbian to sd card fail</a>
+				</dt>
+				
+				<dd class="text-right span1">6 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">220 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=48501&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">tim_t</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=48501&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">tim_t</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=27390&amp;p=248995&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p248995"><time class="date" datetime="Z">Wed Jan 02, 2013 10:24 pm</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg1">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=28014&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">Time Capsule</a>
+				</dt>
+				
+				<dd class="text-right span1">7 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">131 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=45518&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">Emorris69</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=6153&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">trixor</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=28014&amp;p=248950&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p248950"><time class="date" datetime="Z">Wed Jan 02, 2013 9:23 pm</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg2">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=27652&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">Introducing the Raspberry Roller</a>
+				</dt>
+				
+				<dd class="text-right span1">7 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">592 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=49244&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">prupert</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=49244&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">prupert</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=27652&amp;p=248890&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p248890"><time class="date" datetime="Z">Wed Jan 02, 2013 8:20 pm</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+
+		<li class="row  bg1">
+			<dl class="row-fluid">
+				<dt class="span5" title="No unread posts">
+					<!-- ICONS! -->
+					<a href="./viewtopic.php?f=35&amp;t=27680&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="topictitle">Adobe Flash/Youtube</a>
+				</dt>
+				
+				<dd class="text-right span1">1 <dfn>Replies</dfn></dd>
+				<dd class="text-right span1">266 <dfn>Views</dfn></dd>
+				<dd class="text-right span2">
+					<a href="./memberlist.php?mode=viewprofile&amp;u=49286&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">PeterPi09</a><br>
+				</dd>
+				<dd class="text-right span3">
+					<dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=6153&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2">trixor</a><br>
+					<a href="./viewtopic.php?f=35&amp;t=27680&amp;p=248728&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2#p248728"><time class="date" datetime="Z">Wed Jan 02, 2013 5:36 pm</time></a>
+				</dd>
+				
+			</dl>
+		</li>
+
+	
+	</ul>	
+	
+</div>
+<hr class="crease">
+<div class="container">
+
+
+<div class="row-fluid">
+	<div class="topic-actions span6">
+
+		<a href="./posting.php?mode=post&amp;f=35&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="btn btn-info">Post a new topic</a> 
+		
+	 </div>
+	
+	
+	<div class="paging span6 text-right">
+		694 topics   <a href="#" onclick="jumpto(); return false;" title="Click to jump to page…">Page <strong>1</strong> of <strong>28</strong></a>   <span><strong>1</strong><span class="page-sep">, </span><a href="./viewforum.php?f=35&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=25">2</a><span class="page-sep">, </span><a href="./viewforum.php?f=35&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=50">3</a><span class="page-sep">, </span><a href="./viewforum.php?f=35&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=75">4</a><span class="page-sep">, </span><a href="./viewforum.php?f=35&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=100">5</a><span class="page-dots"> ... </span><a href="./viewforum.php?f=35&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=675">28</a></span>
+	</div>
+	
+	
+</div>
+
+<br>
+<div class="row-fluid">
+<div class="row-fluid">
+	<div class="span4">
+		
+		<a href="./index.php?sid=f0087b4d3c04fcec23ecce162c4d10f2" class="btn left" accesskey="r">Return to Board index</a>
+		
+	</div>
+	<div class="span2">
+		 
+	</div>
+	<div class="span6 text-right">
+		
+		<form method="post" id="jumpbox" action="./viewforum.php?sid=f0087b4d3c04fcec23ecce162c4d10f2" onsubmit="if(this.f.value == -1){return false;}" class="form-inline">
+
+		
+		<fieldset class="jumpbox">
+		
+		
+			<label for="f" accesskey="j">Jump to: 
+			<select name="f" id="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+			
+			
+				<option value="-1">Select a forum</option>
+			<option value="-1">------------------</option>
+				<option value="13">Raspberry Pi Foundation</option>
+			
+				<option value="83">   The Pi Store</option>
+			
+				<option value="24">   Feedback and requests</option>
+			
+				<option value="23">   Ordering and shipping</option>
+			
+				<option value="22">   Announcements</option>
+			
+				<option value="25">   Forum glitches</option>
+			
+				<option value="19">Community</option>
+			
+				<option value="57">   User groups and events</option>
+			
+				<option value="63">   General discussion</option>
+			
+				<option value="75">   Deutsch</option>
+			
+				<option value="76">   Español</option>
+			
+				<option value="65">   Français</option>
+			
+				<option value="74">   Português</option>
+			
+				<option value="79">   Italiano</option>
+			
+				<option value="82">   Japanese</option>
+			
+				<option value="12">Using the Raspberry Pi</option>
+			
+				<option value="26">   Basic setup and usage</option>
+			
+				<option value="27">   New Linux user help</option>
+			
+				<option value="28">   Troubleshooting</option>
+			
+				<option value="29">   Power users</option>
+			
+				<option value="30">   What software?</option>
+			
+				<option value="14">Programming</option>
+			
+				<option value="31">   General programming discussion</option>
+			
+				<option value="72">   Bare metal</option>
+			
+				<option value="33">   C/C++</option>
+			
+				<option value="67">   Graphics programming</option>
+			
+				<option value="68">      OpenGLES</option>
+			
+				<option value="69">      OpenVG</option>
+			
+				<option value="70">      OpenMAX</option>
+			
+				<option value="81">   Java</option>
+			
+				<option value="32">   Python</option>
+			
+				<option value="77">   Scratch</option>
+			
+				<option value="34">   Other languages</option>
+			
+				<option value="15">Projects</option>
+			
+				<option value="37">   Automation, sensing and robotics</option>
+			
+				<option value="40">   Cases</option>
+			
+				<option value="35" selected="selected">   Media centres</option>
+			
+				<option value="78">   Gaming</option>
+			
+				<option value="38">   Graphics, sound and multimedia</option>
+			
+				<option value="39">   Magazines and books</option>
+			
+				<option value="36">   Networking and servers</option>
+			
+				<option value="64">   Screens and displays</option>
+			
+				<option value="41">   Other projects</option>
+			
+				<option value="16">Hardware and peripherals</option>
+			
+				<option value="42">   Gertboard</option>
+			
+				<option value="43">   CSI camera module</option>
+			
+				<option value="44">   Interfacing (DSI, CSI, I2C, etc.)</option>
+			
+				<option value="45">   Add-ons</option>
+			
+				<option value="46">   What peripheral?</option>
+			
+				<option value="17">Education</option>
+			
+				<option value="47">   General discussion</option>
+			
+				<option value="48">   Software and hardware</option>
+			
+				<option value="49">   Teaching and learning resources</option>
+			
+				<option value="18">Operating system distributions</option>
+			
+				<option value="73">   Android</option>
+			
+				<option value="53">   Arch</option>
+			
+				<option value="50">   Debian</option>
+			
+				<option value="51">   Fedora</option>
+			
+				<option value="54">   Gentoo</option>
+			
+				<option value="71">   Linux Kernel</option>
+			
+				<option value="80">   Plan 9</option>
+			
+				<option value="52">   Puppy</option>
+			
+				<option value="66">   Raspbian</option>
+			
+				<option value="55">   RISCOS</option>
+			
+				<option value="56">   Other</option>
+			
+				<option value="20">Ye Olde Pi Shoppe</option>
+			
+				<option value="58">   Cases for sale</option>
+			
+				<option value="59">   Add-ons for sale</option>
+			
+				<option value="60">   Other stuff for sale</option>
+			
+				<option value="61">   Wanted</option>
+			
+				<option value="21">Off topic</option>
+			
+				<option value="62">   Off topic discussion</option>
+			
+			
+			</select>
+			<input type="submit" value="Go" class="btn" />
+			</label>
+		</fieldset>
+		
+		</form>
+		
+	</div>
+</div>
+</div>
+<br>
+<div class="row-fluid">
+	<div class="span8">
+
+	<h5>Sorting Options</h5>
+	<form method="post" action="./viewforum.php?f=35&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2" class="form-inline">
+		<fieldset class="display-options">
+			<a href="./viewforum.php?f=35&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2&amp;start=25" class="right-box right">Next</a>
+			<label>Display topics from previous: <select name="st" id="st"><option value="0" selected="selected">All Topics</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select></label>
+			<label>Sort by <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="r">Replies</option><option value="s">Subject</option><option value="v">Views</option></select></label>
+			<label><select name="sd" id="sd"><option value="a">Ascending</option><option value="d" selected="selected">Descending</option></select> <input type="submit" name="sort" value="Go" class="btn" /></label>
+	
+		</fieldset>
+	</form>
+
+	
+	 </div>
+
+
+	<div class="span4 text-right">
+		<br>
+		<form class="form-search" method="get" id="forum-search" action="./search.php?sid=f0087b4d3c04fcec23ecce162c4d10f2">
+		<fieldset>
+			<input class="search-query" type="text" name="keywords" id="search_keywords" size="20" value="Search This Forum" onclick="if (this.value == 'Search This Forum') this.value = '';" onblur="if (this.value == '') this.value = 'Search This Forum';" />
+			<button class="btn" type="submit" value="Search This Forum"><i class="icon icon-search"></i></button>
+			<input type="hidden" name="fid[0]" value="35" />
+<input type="hidden" name="sid" value="f0087b4d3c04fcec23ecce162c4d10f2" />
+
+		</fieldset>
+		</form>
+
+	</div>
+	
+</div>
+
+</div>
+<hr class="crease">
+<div class="container">
+
+<div class="row-fluid">
+	<div class="span8">
+		
+		<h5>Who is online</h5>
+		Users browsing this forum: No registered users and 55 guests
+		
+	</div>
+	<div class="span4">
+		
+		<h5>Forum permissions</h5>
+		You <strong>cannot</strong> post new topics in this forum<br />You <strong>cannot</strong> reply to topics in this forum<br />You <strong>cannot</strong> edit your posts in this forum<br />You <strong>cannot</strong> delete your posts in this forum<br />You <strong>cannot</strong> post attachments in this forum<br />
+	</div>
+</div>
+
+</div><!-- #main -->
+
+<footer id="colophon" role="contentinfo" class="wave">
+		<div class="container"><div class="row">
+			<aside class="footer1 span4">
+				<ul class="unstyled">
+					<li><a href="./index.php?sid=f0087b4d3c04fcec23ecce162c4d10f2" accesskey="h"><i class="icon icon-home"></i> Board index</a></li>
+					
+					
+					
+					<li><a href="./memberlist.php?mode=leaders&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2"><i class="icon icon-eye-open"></i> The team</a></li><li><a href="./ucp.php?mode=delete_cookies&amp;sid=f0087b4d3c04fcec23ecce162c4d10f2"><i class="icon icon-trash"></i> Delete all board cookies</a></li>
+					
+					<li><i class="icon icon-time"></i> All times are UTC </li>
+				</ul>
+			</aside>
+				
+			<aside class="footer2 span4">
+				
+			</aside>
+				
+			<aside class="footer3 span4">
+				
+			</aside>
+	
+		</div></div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+<script type="text/javascript" src="./styles/raspite/theme/js/jquery.js"></script>
+<script type="text/javascript" src="./styles/raspite/theme/js/jquery.timeago.js"></script>
+<script type="text/javascript" src="./styles/raspite/template/forum_fn.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+
+	jQuery("time.entry-date").timeago();
+	jQuery("time.date").timeago();
+  
+	jQuery('iframe').each( function() {
+		var url = jQuery(this).attr("src")
+		jQuery(this).attr("src",url+"&wmode=transparent")
+	});
+
+});
+</script>
+	
+</body>
+</html>

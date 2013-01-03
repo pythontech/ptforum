@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="" />
+<meta name="viewport" content="width=device-width" />
+
+
+<title>Raspberry Pi &bull; View topic - omxplayer playing from pipe / standard input on Raspbian</title>
+	
+<link rel="shortcut icon" href="http://www.raspberrypi.org/favicon.ico" type="image/vnd.microsoft.icon"/>
+<link rel="icon" href="http://www.raspberrypi.org/favicon.ico" type="image/x-ico"/>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<link rel="stylesheet" type="text/css" media="all" href="./styles/raspite/theme/style.css" />
+<link rel="stylesheet" type="text/css" href="./styles/raspite/theme/css/bootstrap-raspi.css">
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="./styles/raspite/theme/css/ie7.css">
+<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Asap:700|Chivo:900|Signika:700' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]>
+<script src="./styles/raspite/theme/js/html5shiv.js"></script>
+<![endif]-->
+<link rel="pingback" href="" />
+
+<link rel="alternate" type="application/atom+xml" title="Feed - Raspberry Pi" href="http://www.raspberrypi.org/phpBB3/feed.php" /><link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="http://www.raspberrypi.org/phpBB3/feed.php?mode=topics" /><link rel="alternate" type="application/atom+xml" title="Feed - Forum - Media centres" href="http://www.raspberrypi.org/phpBB3/feed.php?f=35" /><link rel="alternate" type="application/atom+xml" title="Feed - Topic - omxplayer playing from pipe / standard input on Raspbian" href="http://www.raspberrypi.org/phpBB3/feed.php?f=35&amp;t=28017" />
+
+
+<script type="text/javascript">
+// <![CDATA[
+	var jump_page = 'Enter the page number you wish to go to:';
+	var on_page = '1';
+	var per_page = '';
+	var base_url = '';
+	var style_cookie = 'phpBBstyle';
+	var style_cookie_settings = '; path=/; domain=.raspberrypi.org';
+	var onload_functions = new Array();
+	var onunload_functions = new Array();
+
+	
+
+	/**
+	* Find a member
+	*/
+	function find_username(url)
+	{
+		popup(url, 760, 570, '_usersearch');
+		return false;
+	}
+
+	/**
+	* New function for handling multiple calls to window.onload and window.unload by pentapenguin
+	*/
+	window.onload = function()
+	{
+		for (var i = 0; i < onload_functions.length; i++)
+		{
+			eval(onload_functions[i]);
+		}
+	};
+
+	window.onunload = function()
+	{
+		for (var i = 0; i < onunload_functions.length; i++)
+		{
+			eval(onunload_functions[i]);
+		}
+	};
+
+// ]]>
+</script>
+<link href="./styles/raspite/theme/stylesheet.css" rel="stylesheet" type="text/css" media="screen, projection" />
+
+
+
+</head>
+
+<body>
+<a name="top"></a>
+
+<header class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<!-- Cross-site Navigation -->
+<nav class="container" role="navigation">
+			<h3 class="assistive-text">Main menu</h3>
+			<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+			<div class="nav pull-right">
+				<ul id="menu-main-menu" class="nav">
+					<li id="menu-item-1" class="menu-item"><a href="http://raspberrypi.org/" accesskey="h">News</a></li>
+					<li id="menu-item-76" class="menu-item menu-item-76"><a href="./index.php?sid=c523820fae82e1a421e25a5374f2cc66" accesskey="h">Forum</a></li>
+					<li id="menu-item-77" class="menu-item menu-item-77"><a href="http://www.raspberrypi.org/about">About</a></li>
+				</ul>
+					
+				<ul id="menu-sub-menu" class="nav">
+					<li id="menu-item-79" class="menu-item menu-item-79"><a href="http://www.raspberrypi.org/faqs">FAQ</a></li>
+					<li id="menu-item-80" class="menu-item menu-item-80"><a href="http://www.raspberrypi.org/downloads">Download</a></li>
+					<li id="menu-item-92" class="menu-item menu-item-92"><a href="http://www.raspberrypi.org/quick-start-guide">Quick Start</a></li>
+					<li id="menu-item-2" class="menu-item menu-item-2"><a href="http://www.raspberrypi.org/wiki-2">Wiki</a></li>
+					<li id="menu-item-3" class="menu-item menu-item-3"><a href="http://www.raspberrypi.org/trademark-rules">™ Info</a></li>
+				</ul>
+			</div>
+			<a class="nav-logo" href="http://raspberrypi.org/" title="Raspberry Pi" rel="home">Raspberry Pi</a>
+		</nav>
+	</div>
+</header>
+
+<div class="container">
+	
+	<div class="row-fluid searchbar">
+		<div class="span6">
+		<a href="./faq.php?sid=c523820fae82e1a421e25a5374f2cc66" title="Frequently Asked Questions">FAQ</a>
+		<a href="./ucp.php?mode=register&amp;sid=c523820fae82e1a421e25a5374f2cc66">Register</a>
+			<a href="./ucp.php?mode=login&amp;sid=c523820fae82e1a421e25a5374f2cc66" title="Login" accesskey="x">Login</a>
+			
+		</div>
+		<div class="span6 text-right">
+			
+			<form action="./search.php?sid=c523820fae82e1a421e25a5374f2cc66" method="get" id="search" class="form-search" style="display:inline-block; *display:inline; zoom:1;">
+				<input name="keywords" id="keywords" type="text" maxlength="128" title="Search for keywords" class="search-query input-small" value="Search…" onclick="if(this.value=='Search…')this.value='';" onblur="if(this.value=='')this.value='Search…';" />
+				<button class="btn" value="Search" type="submit" title="Search"><i class="icon icon-search"></i></button>
+				<input type="hidden" name="sid" value="c523820fae82e1a421e25a5374f2cc66" />
+
+			</form>
+		
+		</div>
+	</div>
+	
+</div>
+
+<a name="content"></a>
+<div class="container" role="main">
+
+<div class="row-fluid">
+	<div class="span9">
+		<h2>omxplayer playing from pipe / standard input on Raspbian</h2>
+		
+		<!-- ICONS! -->
+			
+	</div>
+
+</div>
+
+<!-- NOTE: remove the style="display: none" when you want to have the forum description on the topic body -->
+
+<br>
+<div class="row-fluid">
+	<div class="topic-actions span8">
+	
+		<a href="./posting.php?mode=reply&amp;f=35&amp;t=28017&amp;sid=c523820fae82e1a421e25a5374f2cc66" class="btn btn-info" title="Post a reply">Post a reply</a> 
+	 </div>
+	
+	
+	<div class="paging span4 text-right">
+		5 posts
+		
+	</div>
+	
+	
+</div>
+	<div id="p248820" class="post row-fluid even">
+	
+		<div class="postbody span9">
+			
+
+			<div class="author">by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=46698&amp;sid=c523820fae82e1a421e25a5374f2cc66">madman_xxx</a></strong> &raquo; Wed Jan 02, 2013 7:14 pm </div>
+
+			
+
+			<div class="content">Hello,<br /><br />Although omxplayer does not allow accepting data directly from standard input, I read elsewhere that a named pipe can be created, which does the same thing. Tried it:<br /><dl class="codebox"><dt>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></dt><dd><code>mkfifo omxpipe<br />cat video.mp4 &gt;omxpipe &amp;<br />omxplayer omxpipe<br /></code></dd></dl><br />Unfortunately, this doesn't work at all or works partially (for example after few seconds some format data is displayed, chopped sound can be heard).<br />Please, could anyone provide me with a solution to make this work?</div>
+
+			
+
+		</div>
+
+		
+		<dl class="postprofile span3" id="profile248820">
+			<dt>
+				
+			</dt>
+		<dd><strong>Posts:</strong> 17</dd><dd><strong>Joined:</strong> Tue Dec 18, 2012 5:03 pm</dd>
+
+		</dl>
+	
+
+	
+	</div>
+
+
+	<div id="p248867" class="post row-fluid odd">
+	
+		<div class="postbody span9">
+			
+
+			<div class="author">by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=8981&amp;sid=c523820fae82e1a421e25a5374f2cc66">KenT</a></strong> &raquo; Wed Jan 02, 2013 7:59 pm </div>
+
+			
+
+			<div class="content">Been there done that  <img src="./images/smilies/icon_e_biggrin.gif" alt=":D" title="Very Happy" /> <br /><br />Look here [url]https://github.com/KenT2[url]<br /><br />pyomxplayer uses pipes. Then jbaiter suggested using Noah's pexpect module, hence TBOPlayer and now Pi Presents.</div>
+
+			
+
+		</div>
+
+		
+		<dl class="postprofile span3" id="profile248867">
+			<dt>
+				
+			</dt>
+		<dd><strong>Posts:</strong> 172</dd><dd><strong>Joined:</strong> Tue Jan 24, 2012 9:30 am</dd>
+
+		</dl>
+	
+
+	
+	</div>
+
+
+	<div id="p248948" class="post row-fluid even">
+	
+		<div class="postbody span9">
+			
+
+			<div class="author">by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=3713&amp;sid=c523820fae82e1a421e25a5374f2cc66">Max</a></strong> &raquo; Wed Jan 02, 2013 9:22 pm </div>
+
+			
+
+			<div class="content">Ran into the same issue a while back, but haven't really had time to look into it.<br />Think it may wrongfully assume the pipe is a local file, that it can seek through, instead of data that needs to be read sequentially.<br /><br /><br /><blockquote><div><cite>KenT wrote:</cite>pyomxplayer uses pipes.</div></blockquote><br /><br />You are using a pipe to emulate keyboard commands send to omxplayer.<br />However this is about feeding the contents of a movie file through a pipe, which is a slightly different purpose.</div>
+
+			
+
+		</div>
+
+		
+		<dl class="postprofile span3" id="profile248948">
+			<dt>
+				
+			</dt>
+		<dd><strong>Posts:</strong> 477</dd><dd><strong>Joined:</strong> Wed Nov 16, 2011 11:39 pm</dd>
+
+		</dl>
+	
+
+	
+	</div>
+
+
+	<div id="p248964" class="post row-fluid odd">
+	
+		<div class="postbody span9">
+			
+
+			<div class="author">by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=8981&amp;sid=c523820fae82e1a421e25a5374f2cc66">KenT</a></strong> &raquo; Wed Jan 02, 2013 9:37 pm </div>
+
+			
+
+			<div class="content"><blockquote><div><cite>Max wrote:</cite>Ran into the same issue a while back, but haven't really had time to look into it.<br />Think it may wrongfully assume the pipe is a local file, that it can seek through, instead of data that needs to be read sequentially.<br /><br /><br /><blockquote><div><cite>KenT wrote:</cite>pyomxplayer uses pipes.</div></blockquote><br /><br />You are using a pipe to emulate keyboard commands send to omxplayer.<br />However this is about feeding the contents of a movie file through a pipe, which is a slightly different purpose.</div></blockquote><br /><br />Whoops sorry, must read the exam question thoroughly <img src="./images/smilies/icon_e_wink.gif" alt=";)" title="Wink" /></div>
+
+			
+
+		</div>
+
+		
+		<dl class="postprofile span3" id="profile248964">
+			<dt>
+				
+			</dt>
+		<dd><strong>Posts:</strong> 172</dd><dd><strong>Joined:</strong> Tue Jan 24, 2012 9:30 am</dd>
+
+		</dl>
+	
+
+	
+	</div>
+
+
+	<div id="p249760" class="post row-fluid even">
+	
+		<div class="postbody span9">
+			
+
+			<div class="author">by <strong><a href="./memberlist.php?mode=viewprofile&amp;u=3713&amp;sid=c523820fae82e1a421e25a5374f2cc66">Max</a></strong> &raquo; Thu Jan 03, 2013 6:50 pm </div>
+
+			
+
+			<div class="content"><blockquote><div><cite>Max wrote:</cite>Think it may wrongfully assume the pipe is a local file, that it can seek through, instead of data that needs to be read sequentially.<br /></div></blockquote><br /><br />Just submitted a fix for that, which has been accepted.<br />If you pull &amp; compile the newest omxplayer source from github, streaming movie data over a named pipe works.</div>
+
+			
+
+		</div>
+
+		
+		<dl class="postprofile span3" id="profile249760">
+			<dt>
+				
+			</dt>
+		<dd><strong>Posts:</strong> 477</dd><dd><strong>Joined:</strong> Wed Nov 16, 2011 11:39 pm</dd>
+
+		</dl>
+	
+
+	
+	</div>
+
+
+	<div class="span4 text-right">
+		<form class="form-search" method="get" id="forum-search" action="./search.php?sid=c523820fae82e1a421e25a5374f2cc66">
+		<fieldset>
+			<input class="search-query" type="text" name="keywords" id="search_keywords" size="20" value="Search This Topic" onclick="if (this.value == 'Search This Topic') this.value = '';" onblur="if (this.value == '') this.value = 'Search This Topic';" />
+			<button class="btn" type="submit" value="Search" ><i class="icon icon-search"></i></button>
+			<input type="hidden" name="t" value="28017" />
+<input type="hidden" name="sf" value="msgonly" />
+<input type="hidden" name="sid" value="c523820fae82e1a421e25a5374f2cc66" />
+
+		</fieldset>
+		</form>
+
+	</div>	
+	
+	</div>
+	</div>
+
+	<hr class="crease">
+	<div class="container">
+
+<div class="row-fluid">
+	<div class="topic-actions span8">
+	
+		<a href="./posting.php?mode=reply&amp;f=35&amp;t=28017&amp;sid=c523820fae82e1a421e25a5374f2cc66" class="btn btn-info" title="Post a reply">Post a reply</a> 
+	 </div>
+	
+	
+	<div class="paging span4 text-right">
+		5 posts
+		
+	</div>
+	
+	
+</div>
+<br>
+
+
+<div class="row-fluid">
+	<div class="span4">
+		
+		<a href="./viewforum.php?f=35&amp;sid=c523820fae82e1a421e25a5374f2cc66" class="btn left" accesskey="r">Return to Media centres</a>
+		
+	</div>
+	<div class="span2">
+		 
+	</div>
+	<div class="span6 text-right">
+		
+		<form method="post" id="jumpbox" action="./viewforum.php?sid=c523820fae82e1a421e25a5374f2cc66" onsubmit="if(this.f.value == -1){return false;}" class="form-inline">
+
+		
+		<fieldset class="jumpbox">
+		
+		
+			<label for="f" accesskey="j">Jump to: 
+			<select name="f" id="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+			
+			
+				<option value="-1">Select a forum</option>
+			<option value="-1">------------------</option>
+				<option value="13">Raspberry Pi Foundation</option>
+			
+				<option value="83">   The Pi Store</option>
+			
+				<option value="24">   Feedback and requests</option>
+			
+				<option value="23">   Ordering and shipping</option>
+			
+				<option value="22">   Announcements</option>
+			
+				<option value="25">   Forum glitches</option>
+			
+				<option value="19">Community</option>
+			
+				<option value="57">   User groups and events</option>
+			
+				<option value="63">   General discussion</option>
+			
+				<option value="75">   Deutsch</option>
+			
+				<option value="76">   Español</option>
+			
+				<option value="65">   Français</option>
+			
+				<option value="74">   Português</option>
+			
+				<option value="79">   Italiano</option>
+			
+				<option value="82">   Japanese</option>
+			
+				<option value="12">Using the Raspberry Pi</option>
+			
+				<option value="26">   Basic setup and usage</option>
+			
+				<option value="27">   New Linux user help</option>
+			
+				<option value="28">   Troubleshooting</option>
+			
+				<option value="29">   Power users</option>
+			
+				<option value="30">   What software?</option>
+			
+				<option value="14">Programming</option>
+			
+				<option value="31">   General programming discussion</option>
+			
+				<option value="72">   Bare metal</option>
+			
+				<option value="33">   C/C++</option>
+			
+				<option value="67">   Graphics programming</option>
+			
+				<option value="68">      OpenGLES</option>
+			
+				<option value="69">      OpenVG</option>
+			
+				<option value="70">      OpenMAX</option>
+			
+				<option value="81">   Java</option>
+			
+				<option value="32">   Python</option>
+			
+				<option value="77">   Scratch</option>
+			
+				<option value="34">   Other languages</option>
+			
+				<option value="15">Projects</option>
+			
+				<option value="37">   Automation, sensing and robotics</option>
+			
+				<option value="40">   Cases</option>
+			
+				<option value="35" selected="selected">   Media centres</option>
+			
+				<option value="78">   Gaming</option>
+			
+				<option value="38">   Graphics, sound and multimedia</option>
+			
+				<option value="39">   Magazines and books</option>
+			
+				<option value="36">   Networking and servers</option>
+			
+				<option value="64">   Screens and displays</option>
+			
+				<option value="41">   Other projects</option>
+			
+				<option value="16">Hardware and peripherals</option>
+			
+				<option value="42">   Gertboard</option>
+			
+				<option value="43">   CSI camera module</option>
+			
+				<option value="44">   Interfacing (DSI, CSI, I2C, etc.)</option>
+			
+				<option value="45">   Add-ons</option>
+			
+				<option value="46">   What peripheral?</option>
+			
+				<option value="17">Education</option>
+			
+				<option value="47">   General discussion</option>
+			
+				<option value="48">   Software and hardware</option>
+			
+				<option value="49">   Teaching and learning resources</option>
+			
+				<option value="18">Operating system distributions</option>
+			
+				<option value="73">   Android</option>
+			
+				<option value="53">   Arch</option>
+			
+				<option value="50">   Debian</option>
+			
+				<option value="51">   Fedora</option>
+			
+				<option value="54">   Gentoo</option>
+			
+				<option value="71">   Linux Kernel</option>
+			
+				<option value="80">   Plan 9</option>
+			
+				<option value="52">   Puppy</option>
+			
+				<option value="66">   Raspbian</option>
+			
+				<option value="55">   RISCOS</option>
+			
+				<option value="56">   Other</option>
+			
+				<option value="20">Ye Olde Pi Shoppe</option>
+			
+				<option value="58">   Cases for sale</option>
+			
+				<option value="59">   Add-ons for sale</option>
+			
+				<option value="60">   Other stuff for sale</option>
+			
+				<option value="61">   Wanted</option>
+			
+				<option value="21">Off topic</option>
+			
+				<option value="62">   Off topic discussion</option>
+			
+			
+			</select>
+			<input type="submit" value="Go" class="btn" />
+			</label>
+		</fieldset>
+		
+		</form>
+		
+	</div>
+</div>
+
+</div>
+<hr class="crease">
+<div class="container">
+
+<div class="row-fluid">
+	<div class="span8">
+		
+		<h5>Who is online</h5>
+		Users browsing this forum: <a href="./memberlist.php?mode=viewprofile&amp;u=41904&amp;sid=c523820fae82e1a421e25a5374f2cc66">Gerrelt</a>, <span style="color: #9E8DA7;" class="username-coloured">Google Feedfetcher</span>, <a href="./memberlist.php?mode=viewprofile&amp;u=24574&amp;sid=c523820fae82e1a421e25a5374f2cc66">Trixster</a> and 33 guests
+		
+	</div>
+	<div class="span4">
+	 
+	</div>
+</div>
+
+</div><!-- #main -->
+
+<footer id="colophon" role="contentinfo" class="wave">
+		<div class="container"><div class="row">
+			<aside class="footer1 span4">
+				<ul class="unstyled">
+					<li><a href="./index.php?sid=c523820fae82e1a421e25a5374f2cc66" accesskey="h"><i class="icon icon-home"></i> Board index</a></li>
+					
+					
+					
+					<li><a href="./memberlist.php?mode=leaders&amp;sid=c523820fae82e1a421e25a5374f2cc66"><i class="icon icon-eye-open"></i> The team</a></li><li><a href="./ucp.php?mode=delete_cookies&amp;sid=c523820fae82e1a421e25a5374f2cc66"><i class="icon icon-trash"></i> Delete all board cookies</a></li>
+					
+					<li><i class="icon icon-time"></i> All times are UTC </li>
+				</ul>
+			</aside>
+				
+			<aside class="footer2 span4">
+				
+			</aside>
+				
+			<aside class="footer3 span4">
+				
+			</aside>
+	
+		</div></div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+<script type="text/javascript" src="./styles/raspite/theme/js/jquery.js"></script>
+<script type="text/javascript" src="./styles/raspite/theme/js/jquery.timeago.js"></script>
+<script type="text/javascript" src="./styles/raspite/template/forum_fn.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+
+	jQuery("time.entry-date").timeago();
+	jQuery("time.date").timeago();
+  
+	jQuery('iframe').each( function() {
+		var url = jQuery(this).attr("src")
+		jQuery(this).attr("src",url+"&wmode=transparent")
+	});
+
+});
+</script>
+	
+</body>
+</html>
