@@ -1,0 +1,920 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="SME Server 7.x" />
+	<title>SME Server 7.x</title>
+	<link rel="canonical" href="http://forums.contribs.org/index.php/board,9.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7" />
+	<link rel="stylesheet" type="text/css" href="http://forums.contribs.org/Themes/core/css/index.css?rc3" />
+	<link rel="stylesheet" type="text/css" href="http://forums.contribs.org/Themes/default/css/print.css?rc3" media="print" />
+	<link rel="help" href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=help" />
+	<link rel="search" href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=search" />
+	<link rel="contents" href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;" />
+	<link rel="alternate" type="application/rss+xml" title="Contribs.org - RSS" href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;type=rss;action=.xml" />
+	<link rel="index" href="http://forums.contribs.org/index.php/board,9.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7" />
+	<script type="text/javascript" src="http://forums.contribs.org/Themes/default/scripts/script.js?rc3"></script>
+	<script type="text/javascript" src="http://forums.contribs.org/Themes/core/scripts/theme.js?rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://forums.contribs.org/Themes/core";
+		var smf_default_theme_url = "http://forums.contribs.org/Themes/default";
+		var smf_images_url = "http://forums.contribs.org/Themes/core/images";
+		var smf_scripturl = "http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+</head>
+<body>
+<div id="mainframe">
+	<div class="tborder">
+		<div class="catbg">
+			<img class="floatright" id="smflogo" src="http://forums.contribs.org/Themes/core/images/smflogo.gif" alt="Simple Machines Forum" />
+			<h1 id="forum_name">
+				<img src="/Themes/default/images/contribs-balls.gif" alt="Contribs.org" />
+			</h1>
+		</div>
+		<ul id="greeting_section" class="reset titlebg2">
+			<li id="time" class="smalltext floatright">
+				June 08, 2010, 07:37:33 AM
+				<img id="upshrink" src="http://forums.contribs.org/Themes/core/images/upshrink.gif" alt="*" title="Shrink or expand the header." align="bottom" style="display: none;" />
+			</li>
+			<li id="name">Welcome, <em>Guest</em></li>
+		</ul>
+		<div id="user_section" class="bordercolor">
+			<div class="windowbg2 clearfix">
+				<script type="text/javascript" src="http://forums.contribs.org/Themes/default/scripts/sha1.js"></script>
+				<form class="windowbg" id="guest_form" action="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '81ed31f008da65ea374799532e6ef559');">
+					Please <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=login">login</a> or <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=register">register</a>.<br />
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					Login with username, password and session length
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+		</div>
+		<div id="news_section" class="titlebg2 clearfix">
+			<form class="floatright" action="http://wiki.contribs.org/SME_Server:GoogleSearch" id="cse-search-box"><div>
+				<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=search;advanced" title="Advanced search"><img id="advsearch" src="http://forums.contribs.org/Themes/core/images/filter.gif" align="middle" alt="Advanced search" /></a>
+				<input type="hidden" name="cx" value="partner-pub-0543029238712846:98h7damiys3" />
+				<input type="hidden" name="cof" value="FORID:9" />
+				<input type="hidden" name="ie" value="UTF-8" />
+				<input type="text" name="q" size="31" />
+				<input type="submit" name="sa" value="Search" />
+			</div></form>
+			<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+			</form>
+			<div id="random_news"><h3>News:</h3><p></p></div>
+		</div>
+	</div>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var oMainHeaderToggle = new smc_Toggle({
+			bToggleEnabled: true,
+			bCurrentlyCollapsed: false,
+			aSwappableContainers: [
+				'user_section',
+				'news_section'
+			],
+			aSwapImages: [
+				{
+					sId: 'upshrink',
+					srcExpanded: smf_images_url + '/upshrink.gif',
+					altExpanded: 'Shrink or expand the header.',
+					srcCollapsed: smf_images_url + '/upshrink2.gif',
+					altCollapsed: 'Shrink or expand the header.'
+				}
+			],
+			oThemeOptions: {
+				bUseThemeSettings: false,
+				sOptionName: 'collapse_header',
+				sSessionVar: 'dccda5c7',
+				sSessionId: '81ed31f008da65ea374799532e6ef559'
+			},
+			oCookieOptions: {
+				bUseCookie: true,
+				sCookieName: 'upshrink'
+			}
+		});
+	// ]]></script>
+	<div class="main_menu">
+		<ul class="reset clearfix">
+			<li id="button_wiki">
+				<a title="Wiki" href="http://wiki.contribs.org/">
+					<span>Wiki</span>
+				</a>
+			</li>
+			<li id="button_home" class="active">
+				<a title="Forums" href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;">
+					<span><em>Forums</em></span>
+				</a>
+			</li>
+			<li id="button_bugs">
+				<a title="Bugs" href="http://bugs.contribs.org/">
+					<span>Bugs</span>
+				</a>
+			</li>
+			<li id="button_lists">
+				<a title="Lists" href="http://lists.contribs.org/mailman/listinfo/">
+					<span>Lists</span>
+				</a>
+			</li>
+			<li id="button_manual">
+				<a title="Manual" href="http://wiki.contribs.org/SME_Server:Documentation">
+					<span>Manual</span>
+				</a>
+			</li>
+			<li id="button_faq">
+				<a title="FAQ" href="http://wiki.contribs.org/SME_Server:Documentation:FAQ">
+					<span>FAQ</span>
+				</a>
+			</li>
+			<li id="button_howto">
+				<a title="Howto" href="http://wiki.contribs.org/Category:Howto">
+					<span>Howto</span>
+				</a>
+			</li>
+			<li id="button_download">
+				<a title="Download" href="http://wiki.contribs.org/SME_Server:Download">
+					<span>Download</span>
+				</a>
+			</li>
+			<li id="button_donate_anon">
+				<a title="Donate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=5393935">
+					<span>Donate</span>
+				</a>
+			</li>
+			<li id="button_search">
+				<a title="Search" href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=search">
+					<span>Search</span>
+				</a>
+			</li>
+			<li id="button_login">
+				<a title="Login" href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=login">
+					<span>Login</span>
+				</a>
+			</li>
+			<li id="button_register" class="last">
+				<a title="Register" href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=register">
+					<span>Register</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<ul class="linktree" id="linktree_upper">
+		<li>
+			<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;"><span>Contribs.org</span></a> &gt;
+		</li>
+		<li>
+			<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;#c2"><span>Contribs.org Forums</span></a> &gt;
+		</li>
+		<li class="last">
+			<a href="http://forums.contribs.org/index.php/board,9.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7"><span>SME Server 7.x</span></a>
+		</li>
+	</ul>
+	<div id="bodyarea">
+		<a id="top"></a>
+		<div id="modbuttons_top" class="modbuttons clearfix margintop">
+			<div class="floatleft middletext">Pages: [<strong>1</strong>] <a class="navPages" href="http://forums.contribs.org/index.php/board,9.20.html?PHPSESSID=khr01fisk07530300h7iusk7m7">2</a> <a class="navPages" href="http://forums.contribs.org/index.php/board,9.40.html?PHPSESSID=khr01fisk07530300h7iusk7m7">3</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://forums.contribs.org/index.php?board=9.%1$d', 60, 6320, 20);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="http://forums.contribs.org/index.php/board,9.6320.html?PHPSESSID=khr01fisk07530300h7iusk7m7">317</a>  &nbsp;&nbsp;<a href="#bot"><strong>Go Down</strong></a></div>
+			
+		</div>
+			<div class="tborder" id="messageindex">
+				<table cellspacing="1" class="bordercolor boardsframe">
+					<thead>
+						<tr>
+							<th width="9%" colspan="2" class="catbg3 headerpadding">&nbsp;</th>
+							<th class="catbg3 headerpadding"><a href="http://forums.contribs.org/index.php/board,9.0/sort,subject.html?PHPSESSID=khr01fisk07530300h7iusk7m7">Subject</a></th>
+							<th class="catbg3 headerpadding" width="11%"><a href="http://forums.contribs.org/index.php/board,9.0/sort,starter.html?PHPSESSID=khr01fisk07530300h7iusk7m7">Started by</a></th>
+							<th class="catbg3 headerpadding" width="4%" align="center"><a href="http://forums.contribs.org/index.php/board,9.0/sort,replies.html?PHPSESSID=khr01fisk07530300h7iusk7m7">Replies</a></th>
+							<th class="catbg3 headerpadding" width="4%" align="center"><a href="http://forums.contribs.org/index.php/board,9.0/sort,views.html?PHPSESSID=khr01fisk07530300h7iusk7m7">Views</a></th>
+							<th class="catbg3 headerpadding" width="22%"><a href="http://forums.contribs.org/index.php/board,9.0/sort,last_post.html?PHPSESSID=khr01fisk07530300h7iusk7m7">Last post <img src="http://forums.contribs.org/Themes/core/images/sort_down.gif" alt="" /></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" />
+							</td>
+							<td class="subject windowbg3" >
+								<img src="http://forums.contribs.org/Themes/core/images/icons/quick_lock.gif" class="align_right" alt="" id="lockicon225196" style="margin: 0;" />
+								<img src="http://forums.contribs.org/Themes/core/images/icons/show_sticky.gif" class="align_right" alt="" id="stickyicon225196" style="margin: 0;" />
+								<strong><span id="msg_225196"><a href="http://forums.contribs.org/index.php/topic,46057.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">SME Server 7.5 has been released</a></span></strong>
+								<small id="pages225196"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=14" title="View the profile of wellsi">wellsi</a>
+							</td>
+							<td class="windowbg3 replies">
+								0
+							</td>
+							<td class="windowbg3 views">
+								541
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,46057.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg225196"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									May 26, 2010, 12:38:06 PM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=14">wellsi</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/exclamation.gif" alt="" />
+							</td>
+							<td class="subject windowbg3" >
+								<img src="http://forums.contribs.org/Themes/core/images/icons/quick_lock.gif" class="align_right" alt="" id="lockicon223694" style="margin: 0;" />
+								<img src="http://forums.contribs.org/Themes/core/images/icons/show_sticky.gif" class="align_right" alt="" id="stickyicon223694" style="margin: 0;" />
+								<strong><span id="msg_223694"><a href="http://forums.contribs.org/index.php/topic,45849.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">ClamAV 0.94 End of Life - email delivery issues after 16.4.2010</a></span></strong>
+								<small id="pages223694"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=107" title="View the profile of mdo">mdo</a>
+							</td>
+							<td class="windowbg3 replies">
+								0
+							</td>
+							<td class="windowbg3 views">
+								843
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,45849.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg223694"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									April 18, 2010, 12:48:51 PM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=107">mdo</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/hot_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/exclamation.gif" alt="" />
+							</td>
+							<td class="subject windowbg3" >
+								
+								<img src="http://forums.contribs.org/Themes/core/images/icons/show_sticky.gif" class="align_right" alt="" id="stickyicon174916" style="margin: 0;" />
+								<strong><span id="msg_174916"><a href="http://forums.contribs.org/index.php/topic,38573.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">FAQ: Should I trust/follow the advice I get in this forum?</a></span></strong>
+								<small id="pages174916">&#171; <a class="navPages" href="http://forums.contribs.org/index.php/topic,38573.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">1</a> <a class="navPages" href="http://forums.contribs.org/index.php/topic,38573.15.html?PHPSESSID=khr01fisk07530300h7iusk7m7">2</a>  &nbsp;<a href="http://forums.contribs.org/index.php/topic,38573.0/all.html?PHPSESSID=khr01fisk07530300h7iusk7m7">All</a> &#187;</small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=3061" title="View the profile of gregswallow">gregswallow</a>
+							</td>
+							<td class="windowbg3 replies">
+								19
+							</td>
+							<td class="windowbg3 views">
+								11185
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,38573.15.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg220158"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									January 04, 2010, 07:11:45 PM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=14596">erroneus</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/exclamation.gif" alt="" />
+							</td>
+							<td class="subject windowbg3" >
+								
+								<img src="http://forums.contribs.org/Themes/core/images/icons/show_sticky.gif" class="align_right" alt="" id="stickyicon174936" style="margin: 0;" />
+								<strong><span id="msg_174936"><a href="http://forums.contribs.org/index.php/topic,38579.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">FAQ: Should I start a new topic (thread) or reply to an old one?</a></span></strong>
+								<small id="pages174936"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=3061" title="View the profile of gregswallow">gregswallow</a>
+							</td>
+							<td class="windowbg3 replies">
+								3
+							</td>
+							<td class="windowbg3 views">
+								18323
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,38579.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg200722"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									November 07, 2008, 03:21:04 PM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=537">FreakWent</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" />
+							</td>
+							<td class="subject windowbg" >
+								
+								
+								<span id="msg_225018"><a href="http://forums.contribs.org/index.php/topic,46025.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">Sudden Email rejections - reported PTR/Domainname mismatch</a></span>
+								<small id="pages225018"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=671" title="View the profile of Ness">Ness</a>
+							</td>
+							<td class="windowbg replies">
+								10
+							</td>
+							<td class="windowbg views">
+								324
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,46025.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg225567"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									<strong>Yesterday</strong> at 03:35:44 AM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=7719">andy_wismer</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/question.gif" alt="" />
+							</td>
+							<td class="subject windowbg" >
+								
+								
+								<span id="msg_225394"><a href="http://forums.contribs.org/index.php/topic,46092.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">Problems with Plain SMTP Authentication since SME 7.5  - Bug 5997 - Solved</a></span>
+								<small id="pages225394"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=3760" title="View the profile of AaronG">AaronG</a>
+							</td>
+							<td class="windowbg replies">
+								5
+							</td>
+							<td class="windowbg views">
+								328
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,46092.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg225566"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									<strong>Yesterday</strong> at 03:10:01 AM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=7719">andy_wismer</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" />
+							</td>
+							<td class="subject windowbg" >
+								
+								
+								<span id="msg_225477"><a href="http://forums.contribs.org/index.php/topic,46105.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">yum update --&gt; interscripts conflicts with udev &lt; 0;339-10.24</a></span>
+								<small id="pages225477"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=15876" title="View the profile of wjp79">wjp79</a>
+							</td>
+							<td class="windowbg replies">
+								5
+							</td>
+							<td class="windowbg views">
+								119
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,46105.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg225565"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									<strong>Yesterday</strong> at 01:31:24 AM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=15876">wjp79</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" />
+							</td>
+							<td class="subject windowbg" >
+								
+								
+								<span id="msg_225545"><a href="http://forums.contribs.org/index.php/topic,46117.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">SME server 7.5 run on Vmware workstation</a></span>
+								<small id="pages225545"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=13358" title="View the profile of ulas">ulas</a>
+							</td>
+							<td class="windowbg replies">
+								0
+							</td>
+							<td class="windowbg views">
+								52
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,46117.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg225545"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									June 06, 2010, 04:03:45 PM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=13358">ulas</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" />
+							</td>
+							<td class="subject windowbg" >
+								
+								
+								<span id="msg_225521"><a href="http://forums.contribs.org/index.php/topic,46112.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">backup of the SME MySQL database</a></span>
+								<small id="pages225521"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=10883" title="View the profile of wdepot">wdepot</a>
+							</td>
+							<td class="windowbg replies">
+								3
+							</td>
+							<td class="windowbg views">
+								117
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,46112.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg225543"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									June 06, 2010, 01:41:40 PM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=6496">cactus</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" />
+							</td>
+							<td class="subject windowbg" >
+								
+								
+								<span id="msg_225506"><a href="http://forums.contribs.org/index.php/topic,46109.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">strange entries in /var/log/wan/current/</a></span>
+								<small id="pages225506"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=15760" title="View the profile of arthrotec">arthrotec</a>
+							</td>
+							<td class="windowbg replies">
+								6
+							</td>
+							<td class="windowbg views">
+								136
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,46109.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg225538"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									June 06, 2010, 10:05:45 AM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=884">CharlieBrady</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" />
+							</td>
+							<td class="subject windowbg" >
+								
+								
+								<span id="msg_225158"><a href="http://forums.contribs.org/index.php/topic,46049.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">SME Server on a hosted VPS (e.g. Linode.com)</a></span>
+								<small id="pages225158"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=22" title="View the profile of hfwang">hfwang</a>
+							</td>
+							<td class="windowbg replies">
+								5
+							</td>
+							<td class="windowbg views">
+								252
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,46049.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg225461"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									June 03, 2010, 05:26:46 PM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=22">hfwang</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/question.gif" alt="" />
+							</td>
+							<td class="subject windowbg" >
+								
+								
+								<span id="msg_225438"><a href="http://forums.contribs.org/index.php/topic,46098.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">XP Workstation login problem - Bug 6010</a></span>
+								<small id="pages225438"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=439" title="View the profile of Paperguides">Paperguides</a>
+							</td>
+							<td class="windowbg replies">
+								7
+							</td>
+							<td class="windowbg views">
+								177
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,46098.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg225458"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									June 03, 2010, 05:14:17 PM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=439">Paperguides</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" />
+							</td>
+							<td class="subject windowbg" >
+								
+								
+								<span id="msg_225370"><a href="http://forums.contribs.org/index.php/topic,46088.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">Device setting in NUT</a></span>
+								<small id="pages225370"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=16995" title="View the profile of bclayton">bclayton</a>
+							</td>
+							<td class="windowbg replies">
+								9
+							</td>
+							<td class="windowbg views">
+								173
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,46088.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg225456"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									June 03, 2010, 04:50:16 PM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=16995">bclayton</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" />
+							</td>
+							<td class="subject windowbg" >
+								
+								
+								<span id="msg_225390"><a href="http://forums.contribs.org/index.php/topic,46090.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">freshclam: Update failed - Bug 6003</a></span>
+								<small id="pages225390"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=1504" title="View the profile of askelon">askelon</a>
+							</td>
+							<td class="windowbg replies">
+								4
+							</td>
+							<td class="windowbg views">
+								173
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,46090.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg225431"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									June 02, 2010, 02:25:01 PM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=1504">askelon</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" />
+							</td>
+							<td class="subject windowbg" >
+								
+								
+								<span id="msg_225328"><a href="http://forums.contribs.org/index.php/topic,46082.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">Is it now safe to upgrade to 7.5?</a></span>
+								<small id="pages225328"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=11897" title="View the profile of dave simmons">dave simmons</a>
+							</td>
+							<td class="windowbg replies">
+								3
+							</td>
+							<td class="windowbg views">
+								424
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,46082.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg225380"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									June 01, 2010, 11:18:34 AM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=11897">dave simmons</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/question.gif" alt="" />
+							</td>
+							<td class="subject windowbg" >
+								
+								
+								<span id="msg_224475"><a href="http://forums.contribs.org/index.php/topic,45958.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">SSL Malformed Packet when access email </a></span>
+								<small id="pages224475"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=14297" title="View the profile of pearless">pearless</a>
+							</td>
+							<td class="windowbg replies">
+								6
+							</td>
+							<td class="windowbg views">
+								228
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,45958.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg225369"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									June 01, 2010, 09:21:41 AM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=884">CharlieBrady</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/lamp.gif" alt="" />
+							</td>
+							<td class="subject windowbg" >
+								
+								
+								<span id="msg_225301"><a href="http://forums.contribs.org/index.php/topic,46079.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">HOWTO /RFC - logging windows events to a sme syslog facility</a></span>
+								<small id="pages225301"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=12066" title="View the profile of magwm">magwm</a>
+							</td>
+							<td class="windowbg replies">
+								4
+							</td>
+							<td class="windowbg views">
+								132
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,46079.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg225345"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									May 31, 2010, 03:29:11 PM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=2850">Stefano</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" />
+							</td>
+							<td class="subject windowbg" >
+								
+								
+								<span id="msg_225274"><a href="http://forums.contribs.org/index.php/topic,46071.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">update 7.4 system to 7.5</a></span>
+								<small id="pages225274"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=16148" title="View the profile of bas60">bas60</a>
+							</td>
+							<td class="windowbg replies">
+								2
+							</td>
+							<td class="windowbg views">
+								358
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,46071.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg225337"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									May 31, 2010, 11:28:51 AM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=6496">cactus</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" />
+							</td>
+							<td class="subject windowbg" >
+								<img src="http://forums.contribs.org/Themes/core/images/icons/quick_lock.gif" class="align_right" alt="" id="lockicon225277" style="margin: 0;" />
+								
+								<span id="msg_225277"><a href="http://forums.contribs.org/index.php/topic,46072.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7"> SME wont start after May 27 update - revisited Bug 5980</a></span>
+								<small id="pages225277"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=13871" title="View the profile of tlicht">tlicht</a>
+							</td>
+							<td class="windowbg replies">
+								7
+							</td>
+							<td class="windowbg views">
+								309
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,46072.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg225331"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									May 31, 2010, 10:08:26 AM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=251">byte</a>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="windowbg2 icon1">
+								<img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" />
+							</td>
+							<td class="windowbg2 icon2">
+								<img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" />
+							</td>
+							<td class="subject windowbg" >
+								
+								
+								<span id="msg_225329"><a href="http://forums.contribs.org/index.php/topic,46083.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">Internal Mail Server setup</a></span>
+								<small id="pages225329"></small>
+							</td>
+							<td class="windowbg2 starter">
+								<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=330" title="View the profile of smeghead">smeghead</a>
+							</td>
+							<td class="windowbg replies">
+								0
+							</td>
+							<td class="windowbg views">
+								103
+							</td>
+							<td class="windowbg2 lastpost">
+								<a href="http://forums.contribs.org/index.php/topic,46083.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7#msg225329"><img src="http://forums.contribs.org/Themes/core/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+								<span class="smalltext">
+									May 31, 2010, 09:47:35 AM<br />
+									by <a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=profile;u=330">smeghead</a>
+								</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<a id="bot"></a>
+	<div id="modbuttons_bottom" class="modbuttons clearfix marginbottom">
+		
+		<div class="floatleft middletext">Pages: [<strong>1</strong>] <a class="navPages" href="http://forums.contribs.org/index.php/board,9.20.html?PHPSESSID=khr01fisk07530300h7iusk7m7">2</a> <a class="navPages" href="http://forums.contribs.org/index.php/board,9.40.html?PHPSESSID=khr01fisk07530300h7iusk7m7">3</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://forums.contribs.org/index.php?board=9.%1$d', 60, 6320, 20);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="http://forums.contribs.org/index.php/board,9.6320.html?PHPSESSID=khr01fisk07530300h7iusk7m7">317</a>  &nbsp;&nbsp;<a href="#top"><strong>Go Up</strong></a></div>
+	</div>
+	<div class="marginbottom">
+	<ul class="linktree" id="linktree_lower">
+		<li>
+			<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;"><span>Contribs.org</span></a> &gt;
+		</li>
+		<li>
+			<a href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;#c2"><span>Contribs.org Forums</span></a> &gt;
+		</li>
+		<li class="last">
+			<a href="http://forums.contribs.org/index.php/board,9.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7"><span>SME Server 7.x</span></a>
+		</li>
+	</ul></div>
+	<div class="tborder clearfix" id="topic_icons">
+		<div class="titlebg2 clearfix">
+			<p class="floatright" id="message_index_jump_to">&nbsp;</p>
+			<div class="floatleft smalltext">
+			<ul class="reset">
+				
+				<li><img src="http://forums.contribs.org/Themes/core/images/topic/normal_post.gif" alt="" align="middle" /> Normal Topic</li>
+				<li><img src="http://forums.contribs.org/Themes/core/images/topic/hot_post.gif" alt="" align="middle" /> Hot Topic (More than 15 replies)</li>
+				<li><img src="http://forums.contribs.org/Themes/core/images/topic/veryhot_post.gif" alt="" align="middle" /> Very Hot Topic (More than 25 replies)</li>
+			</ul>
+			</div>
+			<div class="floatleft smalltext">
+			<ul class="reset">
+				<li><img src="http://forums.contribs.org/Themes/core/images/icons/quick_lock.gif" alt="" align="middle" /> Locked Topic</li>
+				<li><img src="http://forums.contribs.org/Themes/core/images/icons/quick_sticky.gif" alt="" align="middle" /> Sticky Topic</li>
+				<li><img src="http://forums.contribs.org/Themes/core/images/topic/normal_poll.gif" alt="" align="middle" /> Poll</li>
+			</ul>
+			</div>
+			<script type="text/javascript"><!-- // --><![CDATA[
+				if ('XMLHttpRequest' in window)
+					aJumpTo[aJumpTo.length] = new JumpTo({
+						sContainerId: "message_index_jump_to",
+						sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">Jump to:<" + "/label> %dropdown_list%",
+						iCurBoardId: 9,
+						iCurBoardChildLevel: 0,
+						sCurBoardName: "SME Server 7.x",
+						sBoardChildLevelIndicator: "==",
+						sBoardPrefix: "=> ",
+						sCatSeparator: "-----------------------------",
+						sCatPrefix: "",
+						sGoButtonLabel: "go"
+					});
+			// ]]></script>
+		</div>
+	</div>
+<script type="text/javascript" src="http://forums.contribs.org/Themes/default/scripts/topic.js"></script>
+<script type="text/javascript"><!-- // --><![CDATA[
+
+	// Hide certain bits during topic edit.
+	hide_prefixes.push("lockicon", "stickyicon", "pages", "newicon");
+
+	// Use it to detect when we've stopped editing.
+	document.onclick = modify_topic_click;
+
+	var mouse_on_div;
+	function modify_topic_click()
+	{
+		if (in_edit_mode == 1 && mouse_on_div == 0)
+			modify_topic_save("81ed31f008da65ea374799532e6ef559");
+	}
+
+	function modify_topic_keypress(oEvent)
+	{
+		if ('keyCode' in oEvent && oEvent.keyCode == 13)
+		{
+			modify_topic_save("81ed31f008da65ea374799532e6ef559");
+			if ('preventDefault' in oEvent)
+				oEvent.preventDefault();
+			else
+				oEvent.returnValue = false;
+		}
+	}
+
+	// For templating, shown when an inline edit is made.
+	function modify_topic_show_edit(subject)
+	{
+		// Just template the subject.
+		setInnerHTML(cur_subject_div, '<input type="text" name="subject" value="' + subject + '" size="60" style="width: 95%;" maxlength="80" onkeypress="modify_topic_keypress(event)" class="input_text" /><input type="hidden" name="topic" value="' + cur_topic_id + '" /><input type="hidden" name="msg" value="' + cur_msg_id.substr(4) + '" />');
+	}
+
+	// And the reverse for hiding it.
+	function modify_topic_hide_edit(subject)
+	{
+		// Re-template the subject!
+		setInnerHTML(cur_subject_div, '<a href="http://forums.contribs.org/index.php/topic,' + cur_topic_id + '.0.html?PHPSESSID=khr01fisk07530300h7iusk7m7">' + subject + '<' +'/a>');
+	}
+
+// ]]></script>
+	</div>
+	<div id="footerarea" class="headerpadding topmargin clearfix">
+		<ul class="reset smalltext">
+			<li class="copywrite">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://forums.contribs.org/index.php?PHPSESSID=khr01fisk07530300h7iusk7m7&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("UA-11686771-1");
+    pageTracker._setDomainName(".contribs.org");
+    pageTracker._trackPageview();
+} catch(err) {}</script></body></html>

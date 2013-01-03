@@ -1,0 +1,965 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="FAQ: Should I trust/follow the advice I get in this forum?" />
+	<title>FAQ: Should I trust/follow the advice I get in this forum?</title>
+	<link rel="canonical" href="http://forums.contribs.org/index.php/topic,38573.0.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14" />
+	<link rel="stylesheet" type="text/css" href="http://forums.contribs.org/Themes/core/css/index.css?rc3" />
+	<link rel="stylesheet" type="text/css" href="http://forums.contribs.org/Themes/default/css/print.css?rc3" media="print" />
+	<link rel="help" href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=help" />
+	<link rel="search" href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=search" />
+	<link rel="contents" href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;" />
+	<link rel="alternate" type="application/rss+xml" title="Contribs.org - RSS" href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;type=rss;action=.xml" />
+	<link rel="prev" href="http://forums.contribs.org/index.php/topic,38573.0/prev_next,prev.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14" />
+	<link rel="next" href="http://forums.contribs.org/index.php/topic,38573.0/prev_next,next.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14" />
+	<link rel="index" href="http://forums.contribs.org/index.php/board,9.0.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14" />
+	<script type="text/javascript" src="http://forums.contribs.org/Themes/default/scripts/script.js?rc3"></script>
+	<script type="text/javascript" src="http://forums.contribs.org/Themes/core/scripts/theme.js?rc3"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://forums.contribs.org/Themes/core";
+		var smf_default_theme_url = "http://forums.contribs.org/Themes/default";
+		var smf_images_url = "http://forums.contribs.org/Themes/core/images";
+		var smf_scripturl = "http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+		<script type="text/javascript" src="http://forums.contribs.org/Themes/default/scripts/captcha.js"></script>
+</head>
+<body>
+<div id="mainframe">
+	<div class="tborder">
+		<div class="catbg">
+			<img class="floatright" id="smflogo" src="http://forums.contribs.org/Themes/core/images/smflogo.gif" alt="Simple Machines Forum" />
+			<h1 id="forum_name">
+				<img src="/Themes/default/images/contribs-balls.gif" alt="Contribs.org" />
+			</h1>
+		</div>
+		<ul id="greeting_section" class="reset titlebg2">
+			<li id="time" class="smalltext floatright">
+				June 08, 2010, 07:37:37 AM
+				<img id="upshrink" src="http://forums.contribs.org/Themes/core/images/upshrink.gif" alt="*" title="Shrink or expand the header." align="bottom" style="display: none;" />
+			</li>
+			<li id="name">Welcome, <em>Guest</em></li>
+		</ul>
+		<div id="user_section" class="bordercolor">
+			<div class="windowbg2 clearfix">
+				<script type="text/javascript" src="http://forums.contribs.org/Themes/default/scripts/sha1.js"></script>
+				<form class="windowbg" id="guest_form" action="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '1a1c7c749f7b3971a569d9bbc8ba8ed7');">
+					Please <a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=login">login</a> or <a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=register">register</a>.<br />
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					Login with username, password and session length
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+		</div>
+		<div id="news_section" class="titlebg2 clearfix">
+			<form class="floatright" action="http://wiki.contribs.org/SME_Server:GoogleSearch" id="cse-search-box"><div>
+				<a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=search;advanced" title="Advanced search"><img id="advsearch" src="http://forums.contribs.org/Themes/core/images/filter.gif" align="middle" alt="Advanced search" /></a>
+				<input type="hidden" name="cx" value="partner-pub-0543029238712846:98h7damiys3" />
+				<input type="hidden" name="cof" value="FORID:9" />
+				<input type="hidden" name="ie" value="UTF-8" />
+				<input type="text" name="q" size="31" />
+				<input type="submit" name="sa" value="Search" />
+			</div></form>
+			<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+			</form>
+			<div id="random_news"><h3>News:</h3><p></p></div>
+		</div>
+	</div>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var oMainHeaderToggle = new smc_Toggle({
+			bToggleEnabled: true,
+			bCurrentlyCollapsed: false,
+			aSwappableContainers: [
+				'user_section',
+				'news_section'
+			],
+			aSwapImages: [
+				{
+					sId: 'upshrink',
+					srcExpanded: smf_images_url + '/upshrink.gif',
+					altExpanded: 'Shrink or expand the header.',
+					srcCollapsed: smf_images_url + '/upshrink2.gif',
+					altCollapsed: 'Shrink or expand the header.'
+				}
+			],
+			oThemeOptions: {
+				bUseThemeSettings: false,
+				sOptionName: 'collapse_header',
+				sSessionVar: 'ca19b29d75',
+				sSessionId: '1a1c7c749f7b3971a569d9bbc8ba8ed7'
+			},
+			oCookieOptions: {
+				bUseCookie: true,
+				sCookieName: 'upshrink'
+			}
+		});
+	// ]]></script>
+	<div class="main_menu">
+		<ul class="reset clearfix">
+			<li id="button_wiki">
+				<a title="Wiki" href="http://wiki.contribs.org/">
+					<span>Wiki</span>
+				</a>
+			</li>
+			<li id="button_home" class="active">
+				<a title="Forums" href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;">
+					<span><em>Forums</em></span>
+				</a>
+			</li>
+			<li id="button_bugs">
+				<a title="Bugs" href="http://bugs.contribs.org/">
+					<span>Bugs</span>
+				</a>
+			</li>
+			<li id="button_lists">
+				<a title="Lists" href="http://lists.contribs.org/mailman/listinfo/">
+					<span>Lists</span>
+				</a>
+			</li>
+			<li id="button_manual">
+				<a title="Manual" href="http://wiki.contribs.org/SME_Server:Documentation">
+					<span>Manual</span>
+				</a>
+			</li>
+			<li id="button_faq">
+				<a title="FAQ" href="http://wiki.contribs.org/SME_Server:Documentation:FAQ">
+					<span>FAQ</span>
+				</a>
+			</li>
+			<li id="button_howto">
+				<a title="Howto" href="http://wiki.contribs.org/Category:Howto">
+					<span>Howto</span>
+				</a>
+			</li>
+			<li id="button_download">
+				<a title="Download" href="http://wiki.contribs.org/SME_Server:Download">
+					<span>Download</span>
+				</a>
+			</li>
+			<li id="button_donate_anon">
+				<a title="Donate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=5393935">
+					<span>Donate</span>
+				</a>
+			</li>
+			<li id="button_search">
+				<a title="Search" href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=search">
+					<span>Search</span>
+				</a>
+			</li>
+			<li id="button_login">
+				<a title="Login" href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=login">
+					<span>Login</span>
+				</a>
+			</li>
+			<li id="button_register" class="last">
+				<a title="Register" href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=register">
+					<span>Register</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<ul class="linktree" id="linktree_upper">
+		<li>
+			<a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;"><span>Contribs.org</span></a> &gt;
+		</li>
+		<li>
+			<a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;#c2"><span>Contribs.org Forums</span></a> &gt;
+		</li>
+		<li>
+			<a href="http://forums.contribs.org/index.php/board,9.0.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14"><span>SME Server 7.x</span></a> &gt;
+		</li>
+		<li class="last">Topic: 
+			<a href="http://forums.contribs.org/index.php/topic,38573.0.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14"><span>FAQ: Should I trust/follow the advice I get in this forum?</span></a>
+		</li>
+	</ul>
+	<div id="bodyarea">
+<a id="top"></a>
+<a id="msg174916"></a>
+<div class="clearfix margintop" id="postbuttons">
+	<div class="next"><a href="http://forums.contribs.org/index.php/topic,38573.0/prev_next,prev.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#new">&laquo; previous</a> <a href="http://forums.contribs.org/index.php/topic,38573.0/prev_next,next.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#new">next &raquo;</a></div>
+	<div class="margintop middletext floatleft">Pages: [<strong>1</strong>] <a class="navPages" href="http://forums.contribs.org/index.php/topic,38573.15.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14">2</a> &nbsp;<a href="http://forums.contribs.org/index.php/topic,38573.0/all.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14">All</a>   &nbsp;&nbsp;<a href="#lastPost"><strong>Go Down</strong></a></div>
+	<div class="nav floatright">
+		<div class="buttonlist_bottom">
+			<ul class="reset clearfix">
+				<li class="last"><a class="button_strip_print" href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=printpage;topic=38573.0" rel="new_win nofollow"><span>Print</span></a></li>
+			</ul>
+		</div></div>
+</div>
+<div id="forumposts" class="tborder">
+	<h3 class="catbg3">
+		<img src="http://forums.contribs.org/Themes/core/images/topic/hot_post_sticky.gif" align="bottom" alt="" />
+		<span>Author</span>
+		<span id="top_subject">Topic: FAQ: Should I trust/follow the advice I get in this forum? &nbsp;(Read 11186 times)</span>
+	</h3>
+	<form action="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=quickmod2;topic=38573.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('1a1c7c749f7b3971a569d9bbc8ba8ed7', 'ca19b29d75') : false">
+		<div class="bordercolor">
+			<div class="clearfix windowbg largepadding">
+				<div class="floatleft poster">
+					<h4><a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=profile;u=3061" title="View the profile of gregswallow">gregswallow</a></h4>
+					<ul class="reset smalltext" id="msg_174916_extra_info">
+						<li>Wiki & Docs Team</li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/wiki_docs_team.jpg" alt="*" border="0" /></li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span></li>
+						<li>Posts: 616</li>
+						<li class="margintop">
+							<ul class="reset nolist">
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="postarea">
+					<div class="flow_hidden">
+						<div class="keyinfo">
+							<div class="messageicon"><img src="http://forums.contribs.org/Themes/core/images/post/exclamation.gif" alt="" border="0" /></div>
+							<h5 id="subject_174916">
+								<a href="http://forums.contribs.org/index.php/topic,38573.msg174916.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg174916" rel="nofollow">FAQ: Should I trust/follow the advice I get in this forum?</a>
+							</h5>
+							<div class="smalltext">&#171; <strong> on:</strong> September 19, 2007, 01:08:14 PM &#187;</div>
+							<div id="msg_174916_quick_mod"></div>
+						</div>
+					</div>
+					<div class="post">
+						<hr class="hrcolor" width="100%" size="1" />
+						<div class="inner" id="msg_174916">The developers have brought it to my attention that a lot of advice that is being given in this forum is bad.&nbsp; As you may have noticed, we are trying out different ways of implementing a good/bad advice rating system.&nbsp; We haven&#039;t decided if that will stay or not, but I think one thing we are lacking are some recommendations to users of SME Server as to what sort of advice is genrally good, and what is not.&nbsp; <br /><br /><span class="bbc_u">Things that are generally <strong>good</strong> to do:</span><br /><ul class="bbc_list"><li>Report problems when you first find them to the bug tracker at <a href="http://bugs.contribs.org" class="bbc_link new_win" target="_blank">http://bugs.contribs.org</a> after searching there to see if the same problem has been reported already.&nbsp; But remember that the purpose of the bug tracker is to diagnose and fix the problem in an updated version of SME Server.&nbsp; You should be prepared to provide detailed information, be patient, and provide follow up when asked by the developers who will try to reproduce and fix the bug.</li></ul><br /><span class="bbc_u">Things that are generally <strong>bad</strong> to do:&nbsp; </span> <br />(If someone recommend you do one of these things, perhaps you should not follow, or at least question, their advice)<br /><ul class="bbc_list"><li>Don&#039;t do things from the command line that you can do from the server manager</li><li>Don&#039;t install gcc or any other *-devel rpms on your server.</li><li>Don&#039;t install contribs that are not in one of the repositories on mirrors.contribs.org and don&#039;t have a category in the bug tracker.&nbsp; If they are not there, ask the developer of the contrib why that is.</li><li>Don&#039;t do anything that includes an instruction with something like &#039;rpm -Uvh --force ???&#039; or &#039;rpm -Uvh --nodeps ???&#039;.&nbsp; Not a wise thing to do 99% of the time.</li><li>Don&#039;t upgrade the version of php, mysql, apache, perl or any other packages that are included in SME Server.&nbsp; Very bad - don&#039;t do this!&nbsp; Don&#039;t enable the &#039;centosplus&#039; or any other 3rd party repository which includes these packages.</li></ul><br />Please add your comments, or if you have moderator access, please just edit this posting directly with your additions.&nbsp; Developers and the support team - please add some comments. <br /><br />Thanks,</div>
+					</div>
+				</div>
+				<div class="moderatorbar">
+					<div class="smalltext floatleft" id="modified_174916">
+						&#171; <em>Last Edit: September 24, 2007, 12:57:14 PM by gregswallow</em> &#187;
+					</div>
+					<div class="smalltext largepadding floatright">
+						<img src="http://forums.contribs.org/Themes/core/images/ip.gif" alt="" border="0" />
+						Logged
+					</div>
+					<div class="signature" id="msg_174916_signature">Greg Swallow<br /><br />Before starting a new topic, have you searched the <a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=search" class="bbc_link new_win" target="_blank">Forums</a>?.&nbsp; Or the&nbsp; <a href="http://wiki.contribs.org/" class="bbc_link new_win" target="_blank">Wiki</a>? <a href="http://www.google.com/search?q=site%3Alists.contribs.org" class="bbc_link new_win" target="_blank">Mailing lists</a>?&nbsp; <a href="http://wiki.contribs.org/SME_Server:Documentation" class="bbc_link new_win" target="_blank">Manual</a>?&nbsp; <a href="http://bugs.contribs.org/query.cgi" class="bbc_link new_win" target="_blank">Bug Tracker</a>?</div>
+				</div>
+			</div>
+		</div>
+		<div class="bordercolor">
+			<a id="msg174924"></a>
+			<div class="clearfix topborder windowbg2 largepadding">
+				<div class="floatleft poster">
+					<h4><a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=profile;u=10558" title="View the profile of imcintyre">imcintyre</a></h4>
+					<ul class="reset smalltext" id="msg_174924_extra_info">
+						<li>Wiki & Docs Team</li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/wiki_docs_team.jpg" alt="*" border="0" /></li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span></li>
+						<li>Posts: 572</li>
+						<li class="margintop">
+							<ul class="reset nolist">
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="postarea">
+					<div class="flow_hidden">
+						<div class="keyinfo">
+							<div class="messageicon"><img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" border="0" /></div>
+							<h5 id="subject_174924">
+								<a href="http://forums.contribs.org/index.php/topic,38573.msg174924.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg174924" rel="nofollow">Re: FAQ: Should I trust/follow the advice I get in this forum?</a>
+							</h5>
+							<div class="smalltext">&#171; <strong>Reply #1 on:</strong> September 19, 2007, 02:16:51 PM &#187;</div>
+							<div id="msg_174924_quick_mod"></div>
+						</div>
+					</div>
+					<div class="post">
+						<hr class="hrcolor" width="100%" size="1" />
+						<div class="inner" id="msg_174924">Good to know, I&#039;d give you a &quot;good advice&quot; uptick if I could figure out how.&nbsp; <img src="http://forums.contribs.org/Smileys/default/smile.gif" alt="&#58;-&#41;" title="Smile" border="0" class="smiley" /><br /><br />Perhaps your advice above could be posted on the front page of the forums.<br /><br />Did the good/bad advice counters get reset recently. I noticed that I was back at zero and I was so very proud (insert sarcasm smiley here) of my +2 ranking. I guess it is just as likely that I got a couple of -ve&#039;s also.</div>
+					</div>
+				</div>
+				<div class="moderatorbar">
+					<div class="smalltext floatleft" id="modified_174924">
+					</div>
+					<div class="smalltext largepadding floatright">
+						<img src="http://forums.contribs.org/Themes/core/images/ip.gif" alt="" border="0" />
+						Logged
+					</div>
+					<div class="signature" id="msg_174924_signature">Blue Screen of Death: Microsoft&#39;s most reliable program<br />&lt;~~made another on 08/04/01 (no fooling)<br />&lt;~~made a donation 07/03/08</div>
+				</div>
+			</div>
+		</div>
+		<div class="bordercolor">
+			<a id="msg174925"></a>
+			<div class="clearfix topborder windowbg largepadding">
+				<div class="floatleft poster">
+					<h4><a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=profile;u=1641" title="View the profile of mmccarn">mmccarn</a></h4>
+					<ul class="reset smalltext" id="msg_174925_extra_info">
+						<li>Wiki & Docs Team</li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/wiki_docs_team.jpg" alt="*" border="0" /></li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span></li>
+						<li>Posts: 1333</li>
+						<li class="margintop">
+							<ul class="reset nolist">
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="postarea">
+					<div class="flow_hidden">
+						<div class="keyinfo">
+							<div class="messageicon"><img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" border="0" /></div>
+							<h5 id="subject_174925">
+								<a href="http://forums.contribs.org/index.php/topic,38573.msg174925.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg174925" rel="nofollow">Re: FAQ: Should I trust/follow the advice I get in this forum?</a>
+							</h5>
+							<div class="smalltext">&#171; <strong>Reply #2 on:</strong> September 19, 2007, 02:37:35 PM &#187;</div>
+							<div id="msg_174925_quick_mod"></div>
+						</div>
+					</div>
+					<div class="post">
+						<hr class="hrcolor" width="100%" size="1" />
+						<div class="inner" id="msg_174925">As someone who spends more time giving (bad?) advice than asking for help, this is how I read this policy.&nbsp; Please correct anything I have mis-interpreted.<br /><ul class="bbc_list"><li type="disc">Don&#039;t provide instructions that involve the command line</li><li type="disc">If a configuration setting cannot be set in server-manager, provide a link to the wiki, manual or existing bug where the command is documented (spamassassin white lists, for example?)</li><li type="disc">If there is no documented solution to a problem (in the wiki, manual, or existing bugs), open a new bug in the bug tracker so that the developers can weigh in on the issue.</li><li type="disc">Make sure that all bugs include approved resolution instructions, or links to instructions in the wiki (<a href="http://bugs.contribs.org/show_bug.cgi?id=3352" class="bbc_link new_win" target="_blank">Bug 3352</a>, for example, traces the development of a solution, but the next person who ran into this problem couldn&#039;t tell what to do from the bug tracker and had to ask for help: <a href="http://forums.contribs.org/index.php/topic,38555.msg174842.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg174842" class="bbc_link new_win" target="_blank">http://forums.contribs.org/index.php?topic=38555.msg174842#msg174842</a>)<br /></li></ul></div>
+					</div>
+				</div>
+				<div class="moderatorbar">
+					<div class="smalltext floatleft" id="modified_174925">
+					</div>
+					<div class="smalltext largepadding floatright">
+						<img src="http://forums.contribs.org/Themes/core/images/ip.gif" alt="" border="0" />
+						Logged
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bordercolor">
+			<a id="msg174927"></a>
+			<div class="clearfix topborder windowbg2 largepadding">
+				<div class="floatleft poster">
+					<h4><a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=profile;u=3061" title="View the profile of gregswallow">gregswallow</a></h4>
+					<ul class="reset smalltext" id="msg_174927_extra_info">
+						<li>Wiki & Docs Team</li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/wiki_docs_team.jpg" alt="*" border="0" /></li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span></li>
+						<li>Posts: 616</li>
+						<li class="margintop">
+							<ul class="reset nolist">
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="postarea">
+					<div class="flow_hidden">
+						<div class="keyinfo">
+							<div class="messageicon"><img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" border="0" /></div>
+							<h5 id="subject_174927">
+								<a href="http://forums.contribs.org/index.php/topic,38573.msg174927.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg174927" rel="nofollow">Re: FAQ: Should I trust/follow the advice I get in this forum?</a>
+							</h5>
+							<div class="smalltext">&#171; <strong>Reply #3 on:</strong> September 19, 2007, 02:57:03 PM &#187;</div>
+							<div id="msg_174927_quick_mod"></div>
+						</div>
+					</div>
+					<div class="post">
+						<hr class="hrcolor" width="100%" size="1" />
+						<div class="inner" id="msg_174927"><div class="quoteheader"><div class="topslice_quote"><a href="http://forums.contribs.org/index.php/topic,38573.msg174925.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg174925">Quote from: mmccarn on September 19, 2007, 02:37:35 PM</a></div></div><blockquote class="bbc_standard_quote"><ul class="bbc_list"><li type="disc">Don&#039;t provide instructions that involve the command line</li><li type="disc">If a configuration setting cannot be set in server-manager, provide a link to the wiki, manual or existing bug where the command is documented (spamassassin white lists, for example?)</li><li type="disc">If there is no documented solution to a problem (in the wiki, manual, or existing bugs), open a new bug in the bug tracker so that the developers can weigh in on the issue.</li><li type="disc">Make sure that all bugs include approved resolution instructions, or links to instructions in the wiki (<a href="http://bugs.contribs.org/show_bug.cgi?id=3352" class="bbc_link new_win" target="_blank">Bug 3352</a>, for example, traces the development of a solution, but the next person who ran into this problem couldn&#039;t tell what to do from the bug tracker and had to ask for help: <a href="http://forums.contribs.org/index.php/topic,38555.msg174842.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg174842" class="bbc_link new_win" target="_blank">http://forums.contribs.org/index.php?topic=38555.msg174842#msg174842</a>)<br /></li></ul></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />1 - I would say &#039;Don&#039;t provide instructions that involve the command line if the same thing can be done through the server manager&#039;.<br />2 - sounds like a good suggestion to the people writing the advice<br />3 - I will ammend the first post to say something about searching the bug tracker before posting a new bug report.<br />4 - sounds good, but not really related to good/bad advice in the forums.<br /><br />I think we could incorporate some of your suggestions into a &quot;Best practices for giving advice&quot; section in the first post.&nbsp; I&#039;ll add that too.</div>
+					</div>
+				</div>
+				<div class="moderatorbar">
+					<div class="smalltext floatleft" id="modified_174927">
+						&#171; <em>Last Edit: September 19, 2007, 03:21:02 PM by gregswallow</em> &#187;
+					</div>
+					<div class="smalltext largepadding floatright">
+						<img src="http://forums.contribs.org/Themes/core/images/ip.gif" alt="" border="0" />
+						Logged
+					</div>
+					<div class="signature" id="msg_174927_signature">Greg Swallow<br /><br />Before starting a new topic, have you searched the <a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=search" class="bbc_link new_win" target="_blank">Forums</a>?.&nbsp; Or the&nbsp; <a href="http://wiki.contribs.org/" class="bbc_link new_win" target="_blank">Wiki</a>? <a href="http://www.google.com/search?q=site%3Alists.contribs.org" class="bbc_link new_win" target="_blank">Mailing lists</a>?&nbsp; <a href="http://wiki.contribs.org/SME_Server:Documentation" class="bbc_link new_win" target="_blank">Manual</a>?&nbsp; <a href="http://bugs.contribs.org/query.cgi" class="bbc_link new_win" target="_blank">Bug Tracker</a>?</div>
+				</div>
+			</div>
+		</div>
+		<div class="bordercolor">
+			<a id="msg174983"></a>
+			<div class="clearfix topborder windowbg largepadding">
+				<div class="floatleft poster">
+					<h4><a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=profile;u=1641" title="View the profile of mmccarn">mmccarn</a></h4>
+					<ul class="reset smalltext" id="msg_174983_extra_info">
+						<li>Wiki & Docs Team</li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/wiki_docs_team.jpg" alt="*" border="0" /></li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span></li>
+						<li>Posts: 1333</li>
+						<li class="margintop">
+							<ul class="reset nolist">
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="postarea">
+					<div class="flow_hidden">
+						<div class="keyinfo">
+							<div class="messageicon"><img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" border="0" /></div>
+							<h5 id="subject_174983">
+								<a href="http://forums.contribs.org/index.php/topic,38573.msg174983.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg174983" rel="nofollow">Re: FAQ: Should I trust/follow the advice I get in this forum?</a>
+							</h5>
+							<div class="smalltext">&#171; <strong>Reply #4 on:</strong> September 20, 2007, 09:46:50 AM &#187;</div>
+							<div id="msg_174983_quick_mod"></div>
+						</div>
+					</div>
+					<div class="post">
+						<hr class="hrcolor" width="100%" size="1" />
+						<div class="inner" id="msg_174983"><div class="quoteheader"><div class="topslice_quote">Quote from: gregswallow</div></div><blockquote class="bbc_standard_quote">1 - I would say &#039;Don&#039;t provide instructions that involve the command line if the same thing can be done through the server manager&#039;.</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>I went back and forth on this.&nbsp; My first impulse is to throw a bunch of command line stuff into the forum - but then I thought &quot;why not open a bug report, put the command line stuff there, and refer to it from the forums?&quot; - that way the developers get to weigh in on the validity of my impulses without needing to scan the forums for my misguided advice.<br /><br />I see a work-flow like this:<br /><ul class="bbc_list"><li type="disc">The first time a question is asked in the forum, an advice-giver like myself finds a reference to the answer and gives the link, or creates a bug for the question and proposes a solution there</li><li type="disc">the bug then proceeds wherever it goes - ending in &#039;fixed in....&#039; an updated RPM or a wiki update or a documentation update</li><li type="disc">the next time this question is asked, the solution is referred to in the wiki or docs</li></ul><br />The &quot;pro&quot; side of this is that all advice goes through bugzilla so the developers get to see it.&nbsp; The &quot;con&quot; side is that I don&#039;t like opening frivolous bugs and potentially wasting the developers&#039; time.&nbsp; <br /><br />Also, I don&#039;t know how to remove anything from bugzilla - if I upload a proposed script that ends up causing problems, or make a post with code in it that doesn&#039;t work, how can I make sure no one uses it?&nbsp; In the forums I try to go back and edit any post I give where my advice is &quot;just wrong&quot; to keep folks from using it.<br /><br />Having said that, I will follow the recommended procedures to the best of my ability, whatever they are!<br /><br /><br /><div class="quoteheader"><div class="topslice_quote">Quote from: gregswallow</div></div><blockquote class="bbc_standard_quote">4 - sounds good, but not really related to good/bad advice in the forums.</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>Yes, but once we publish &quot;question answering&quot; guidelines I think they should include the requirement that the answer flow all the way through to either an updated RPM, an updated wiki or manual page, or a concise statement (understandable by end users) why not...<br /></div>
+					</div>
+				</div>
+				<div class="moderatorbar">
+					<div class="smalltext floatleft" id="modified_174983">
+					</div>
+					<div class="smalltext largepadding floatright">
+						<img src="http://forums.contribs.org/Themes/core/images/ip.gif" alt="" border="0" />
+						Logged
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bordercolor">
+			<a id="msg175024"></a>
+			<div class="clearfix topborder windowbg2 largepadding">
+				<div class="floatleft poster">
+					<h4><a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=profile;u=3" title="View the profile of slords">slords</a></h4>
+					<ul class="reset smalltext" id="msg_175024_extra_info">
+						<li>Development Team</li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/development_team.jpg" alt="*" border="0" /></li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span></li>
+						<li>Posts: 197</li>
+						<li class="margintop">
+							<ul class="reset nolist">
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="postarea">
+					<div class="flow_hidden">
+						<div class="keyinfo">
+							<div class="messageicon"><img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" border="0" /></div>
+							<h5 id="subject_175024">
+								<a href="http://forums.contribs.org/index.php/topic,38573.msg175024.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg175024" rel="nofollow">Re: FAQ: Should I trust/follow the advice I get in this forum?</a>
+							</h5>
+							<div class="smalltext">&#171; <strong>Reply #5 on:</strong> September 20, 2007, 09:22:02 PM &#187;</div>
+							<div id="msg_175024_quick_mod"></div>
+						</div>
+					</div>
+					<div class="post">
+						<hr class="hrcolor" width="100%" size="1" />
+						<div class="inner" id="msg_175024"><div class="quoteheader"><div class="topslice_quote"><a href="http://forums.contribs.org/index.php/topic,38573.msg174983.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg174983">Quote from: mmccarn on September 20, 2007, 09:46:50 AM</a></div></div><blockquote class="bbc_standard_quote">The &quot;pro&quot; side of this is that all advice goes through bugzilla so the developers get to see it.&nbsp; The &quot;con&quot; side is that I don&#039;t like opening frivolous bugs and potentially wasting the developers&#039; time.</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />Raising bugs is never a waste of our time.&nbsp; Having to search the forums is.&nbsp; If you raise a bug the worst we can do is just close it won&#039;t fix.&nbsp; That takes very little time but still puts something out there for bugzilla to search one.<br /><br /><div class="quoteheader"><div class="topslice_quote"><a href="http://forums.contribs.org/index.php/topic,38573.msg174983.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg174983">Quote from: mmccarn on September 20, 2007, 09:46:50 AM</a></div></div><blockquote class="bbc_standard_quote">Also, I don&#039;t know how to remove anything from bugzilla - if I upload a proposed script that ends up causing problems, or make a post with code in it that doesn&#039;t work, how can I make sure no one uses it?&nbsp; In the forums I try to go back and edit any post I give where my advice is &quot;just wrong&quot; to keep folks from using it.</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />You can mark an attached file as obsolete indicating that it is no longer valid.&nbsp; In the forums you are allowed to edit posts but only for up to 7 days after it was posted.&nbsp; After that point things are locked to keep them static.</div>
+					</div>
+				</div>
+				<div class="moderatorbar">
+					<div class="smalltext floatleft" id="modified_175024">
+					</div>
+					<div class="smalltext largepadding floatright">
+						<img src="http://forums.contribs.org/Themes/core/images/ip.gif" alt="" border="0" />
+						Logged
+					</div>
+					<div class="signature" id="msg_175024_signature"><span style="font-family: Arial;" class="bbc_font"><span style="font-size: 7pt;" class="bbc_size">&quot;Programming today is a race between software engineers striving to build bigger and better idiot-proof programs,<br />and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.&quot; -- Rich Cook</span></span></div>
+				</div>
+			</div>
+		</div>
+		<div class="bordercolor">
+			<a id="msg176020"></a>
+			<div class="clearfix topborder windowbg largepadding">
+				<div class="floatleft poster">
+					<h4><a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=profile;u=2079" title="View the profile of Normando">Normando</a></h4>
+					<ul class="reset smalltext" id="msg_176020_extra_info">
+						<li>Forum Moderator (ES)</li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/forum_moderator.jpg" alt="*" border="0" /></li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span></li>
+						<li>Posts: 836</li>
+						<li class="margintop">
+							<ul class="reset nolist">
+								<li><a href="http://www.unixlan.com.ar" title="Unixlan" target="_blank" class="new_win"><img src="http://forums.contribs.org/Themes/core/images/www_sm.gif" alt="Unixlan" border="0" /></a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="postarea">
+					<div class="flow_hidden">
+						<div class="keyinfo">
+							<div class="messageicon"><img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" border="0" /></div>
+							<h5 id="subject_176020">
+								<a href="http://forums.contribs.org/index.php/topic,38573.msg176020.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg176020" rel="nofollow">Re: FAQ: Should I trust/follow the advice I get in this forum?</a>
+							</h5>
+							<div class="smalltext">&#171; <strong>Reply #6 on:</strong> October 06, 2007, 07:09:23 PM &#187;</div>
+							<div id="msg_176020_quick_mod"></div>
+						</div>
+					</div>
+					<div class="post">
+						<hr class="hrcolor" width="100%" size="1" />
+						<div class="inner" id="msg_176020">Which is the place to discuss the bad votes that they have given me?</div>
+					</div>
+				</div>
+				<div class="moderatorbar">
+					<div class="smalltext floatleft" id="modified_176020">
+					</div>
+					<div class="smalltext largepadding floatright">
+						<img src="http://forums.contribs.org/Themes/core/images/ip.gif" alt="" border="0" />
+						Logged
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bordercolor">
+			<a id="msg176031"></a>
+			<div class="clearfix topborder windowbg2 largepadding">
+				<div class="floatleft poster">
+					<h4><a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=profile;u=6496" title="View the profile of cactus">cactus</a></h4>
+					<ul class="reset smalltext" id="msg_176031_extra_info">
+						<li>Wiki & Docs Team</li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/wiki_docs_team.jpg" alt="*" border="0" /></li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span></li>
+						<li>Posts: 3896</li>
+						<li class="margintop">
+							<ul class="reset nolist">
+								<li><a href="http://www.snetram.nl" title="http://www.snetram.nl" target="_blank" class="new_win"><img src="http://forums.contribs.org/Themes/core/images/www_sm.gif" alt="http://www.snetram.nl" border="0" /></a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="postarea">
+					<div class="flow_hidden">
+						<div class="keyinfo">
+							<div class="messageicon"><img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" border="0" /></div>
+							<h5 id="subject_176031">
+								<a href="http://forums.contribs.org/index.php/topic,38573.msg176031.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg176031" rel="nofollow">Re: FAQ: Should I trust/follow the advice I get in this forum?</a>
+							</h5>
+							<div class="smalltext">&#171; <strong>Reply #7 on:</strong> October 07, 2007, 12:30:38 AM &#187;</div>
+							<div id="msg_176031_quick_mod"></div>
+						</div>
+					</div>
+					<div class="post">
+						<hr class="hrcolor" width="100%" size="1" />
+						<div class="inner" id="msg_176031"><div class="quoteheader"><div class="topslice_quote"><a href="http://forums.contribs.org/index.php/topic,38573.msg176020.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg176020">Quote from: Normando on October 06, 2007, 07:09:23 PM</a></div></div><blockquote class="bbc_standard_quote">Which is the place to discuss the bad votes that they have given me?<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>As per <a href="http://bugs.contribs.org/show_bug.cgi?id=3389#c22" class="bbc_link new_win" target="_blank">bug 3389, comment 22</a> you can see that at this moment only a strict group (I guess the developers and perhaps some others, who have extensive knowledge of SME Server) have the possibility to cast votes. This is done after an extensive discussion, as you can see in this bug there have been a lot of remarks already on the voting system it self. <br /><br />The voting system was implemented out of a feeling of dissatisfaction with the quality of advice given in the forums, the development team is of the opinion that a lot of advice in the forums is not good enough, or could be better.<br /><br />As you can see in <a href="http://bugs.contribs.org/show_bug.cgi?id=3389#c6" class="bbc_link new_win" target="_blank">comment 6</a> I already suggested that there is no way of reviewing your votes. Your best bet is to ask th developers in a (new) bug report I guess.</div>
+					</div>
+				</div>
+				<div class="moderatorbar">
+					<div class="smalltext floatleft" id="modified_176031">
+					</div>
+					<div class="smalltext largepadding floatright">
+						<img src="http://forums.contribs.org/Themes/core/images/ip.gif" alt="" border="0" />
+						Logged
+					</div>
+					<div class="signature" id="msg_176031_signature"><span style="font-size: 8pt;" class="bbc_size">Be careful whose advice you buy, but be patient with those who supply it. Advice is a form of nostalgia, dispensing it is a way of fishing the past from the disposal, wiping it off, painting over the ugly parts and recycling it for more than its worth ~ Baz Luhrmann - <a href="http://en.wikipedia.org/wiki/Wear_Sunscreen#.22Wear_Sunscreen.22_as_a_music_single" class="bbc_link new_win" target="_blank">Everybody&#39;s Free (To Wear Sunscreen)</a></span></div>
+				</div>
+			</div>
+		</div>
+		<div class="bordercolor">
+			<a id="msg176040"></a>
+			<div class="clearfix topborder windowbg largepadding">
+				<div class="floatleft poster">
+					<h4><a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=profile;u=251" title="View the profile of byte">byte</a></h4>
+					<ul class="reset smalltext" id="msg_176040_extra_info">
+						<li>QA & Testing Team</li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/qa_testing_team.jpg" alt="*" border="0" /></li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span></li>
+						<li>Posts: 1944</li>
+						<li class="margintop">
+							<ul class="reset nolist">
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="postarea">
+					<div class="flow_hidden">
+						<div class="keyinfo">
+							<div class="messageicon"><img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" border="0" /></div>
+							<h5 id="subject_176040">
+								<a href="http://forums.contribs.org/index.php/topic,38573.msg176040.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg176040" rel="nofollow">Re: FAQ: Should I trust/follow the advice I get in this forum?</a>
+							</h5>
+							<div class="smalltext">&#171; <strong>Reply #8 on:</strong> October 07, 2007, 04:35:38 AM &#187;</div>
+							<div id="msg_176040_quick_mod"></div>
+						</div>
+					</div>
+					<div class="post">
+						<hr class="hrcolor" width="100%" size="1" />
+						<div class="inner" id="msg_176040"><div class="quoteheader"><div class="topslice_quote"><a href="http://forums.contribs.org/index.php/topic,38573.msg176031.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg176031">Quote from: cactus on October 07, 2007, 12:30:38 AM</a></div></div><blockquote class="bbc_standard_quote">I already suggested that there is no way of reviewing your votes. Your best bet is to ask th developers in a (new) bug report I guess.</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />There is a way to review your good/bad advice click on your profile and you will see...<br /><br />&quot;Who changed my karma&nbsp; &nbsp;&nbsp;&nbsp;Whose karma have I changed&quot;<br /><br /></div>
+					</div>
+				</div>
+				<div class="moderatorbar">
+					<div class="smalltext floatleft" id="modified_176040">
+					</div>
+					<div class="smalltext largepadding floatright">
+						<img src="http://forums.contribs.org/Themes/core/images/ip.gif" alt="" border="0" />
+						Logged
+					</div>
+					<div class="signature" id="msg_176040_signature">--[byte]--<br /><br />Have you filled in a Bug Report over @ <a href="http://bugs.contribs.org" class="bbc_link new_win" target="_blank">http://bugs.contribs.org</a> ? Please don&#39;t wait to be told this way you help us to help you/others - Thanks!</div>
+				</div>
+			</div>
+		</div>
+		<div class="bordercolor">
+			<a id="msg176166"></a>
+			<div class="clearfix topborder windowbg2 largepadding">
+				<div class="floatleft poster">
+					<h4><a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=profile;u=6496" title="View the profile of cactus">cactus</a></h4>
+					<ul class="reset smalltext" id="msg_176166_extra_info">
+						<li>Wiki & Docs Team</li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/wiki_docs_team.jpg" alt="*" border="0" /></li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span></li>
+						<li>Posts: 3896</li>
+						<li class="margintop">
+							<ul class="reset nolist">
+								<li><a href="http://www.snetram.nl" title="http://www.snetram.nl" target="_blank" class="new_win"><img src="http://forums.contribs.org/Themes/core/images/www_sm.gif" alt="http://www.snetram.nl" border="0" /></a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="postarea">
+					<div class="flow_hidden">
+						<div class="keyinfo">
+							<div class="messageicon"><img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" border="0" /></div>
+							<h5 id="subject_176166">
+								<a href="http://forums.contribs.org/index.php/topic,38573.msg176166.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg176166" rel="nofollow">Re: FAQ: Should I trust/follow the advice I get in this forum?</a>
+							</h5>
+							<div class="smalltext">&#171; <strong>Reply #9 on:</strong> October 08, 2007, 09:55:36 AM &#187;</div>
+							<div id="msg_176166_quick_mod"></div>
+						</div>
+					</div>
+					<div class="post">
+						<hr class="hrcolor" width="100%" size="1" />
+						<div class="inner" id="msg_176166"><div class="quoteheader"><div class="topslice_quote"><a href="http://forums.contribs.org/index.php/topic,38573.msg176040.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg176040">Quote from: byte on October 07, 2007, 04:35:38 AM</a></div></div><blockquote class="bbc_standard_quote">There is a way to review your good/bad advice click on your profile and you will see...<br /><br />&quot;Who changed my karma&nbsp; &nbsp;&nbsp;&nbsp;Whose karma have I changed&quot;<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>Is this new or did I just not see it all the time?</div>
+					</div>
+				</div>
+				<div class="moderatorbar">
+					<div class="smalltext floatleft" id="modified_176166">
+						&#171; <em>Last Edit: October 08, 2007, 10:06:42 AM by cactus</em> &#187;
+					</div>
+					<div class="smalltext largepadding floatright">
+						<img src="http://forums.contribs.org/Themes/core/images/ip.gif" alt="" border="0" />
+						Logged
+					</div>
+					<div class="signature" id="msg_176166_signature"><span style="font-size: 8pt;" class="bbc_size">Be careful whose advice you buy, but be patient with those who supply it. Advice is a form of nostalgia, dispensing it is a way of fishing the past from the disposal, wiping it off, painting over the ugly parts and recycling it for more than its worth ~ Baz Luhrmann - <a href="http://en.wikipedia.org/wiki/Wear_Sunscreen#.22Wear_Sunscreen.22_as_a_music_single" class="bbc_link new_win" target="_blank">Everybody&#39;s Free (To Wear Sunscreen)</a></span></div>
+				</div>
+			</div>
+		</div>
+		<div class="bordercolor">
+			<a id="msg176168"></a>
+			<div class="clearfix topborder windowbg largepadding">
+				<div class="floatleft poster">
+					<h4><a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=profile;u=2079" title="View the profile of Normando">Normando</a></h4>
+					<ul class="reset smalltext" id="msg_176168_extra_info">
+						<li>Forum Moderator (ES)</li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/forum_moderator.jpg" alt="*" border="0" /></li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span></li>
+						<li>Posts: 836</li>
+						<li class="margintop">
+							<ul class="reset nolist">
+								<li><a href="http://www.unixlan.com.ar" title="Unixlan" target="_blank" class="new_win"><img src="http://forums.contribs.org/Themes/core/images/www_sm.gif" alt="Unixlan" border="0" /></a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="postarea">
+					<div class="flow_hidden">
+						<div class="keyinfo">
+							<div class="messageicon"><img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" border="0" /></div>
+							<h5 id="subject_176168">
+								<a href="http://forums.contribs.org/index.php/topic,38573.msg176168.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg176168" rel="nofollow">Re: FAQ: Should I trust/follow the advice I get in this forum?</a>
+							</h5>
+							<div class="smalltext">&#171; <strong>Reply #10 on:</strong> October 08, 2007, 10:28:43 AM &#187;</div>
+							<div id="msg_176168_quick_mod"></div>
+						</div>
+					</div>
+					<div class="post">
+						<hr class="hrcolor" width="100%" size="1" />
+						<div class="inner" id="msg_176168"><div class="quoteheader"><div class="topslice_quote"><a href="http://forums.contribs.org/index.php/topic,38573.msg176040.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg176040">Quote from: byte on October 07, 2007, 04:35:38 AM</a></div></div><blockquote class="bbc_standard_quote">There is a way to review your good/bad advice click on your profile and you will see...<br /><br />&quot;Who changed my karma&nbsp; &nbsp;&nbsp;&nbsp;Whose karma have I changed&quot;<br /><br /><br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>My member status only allow view, but not review</div>
+					</div>
+				</div>
+				<div class="moderatorbar">
+					<div class="smalltext floatleft" id="modified_176168">
+					</div>
+					<div class="smalltext largepadding floatright">
+						<img src="http://forums.contribs.org/Themes/core/images/ip.gif" alt="" border="0" />
+						Logged
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bordercolor">
+			<a id="msg176172"></a>
+			<div class="clearfix topborder windowbg2 largepadding">
+				<div class="floatleft poster">
+					<h4><a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=profile;u=251" title="View the profile of byte">byte</a></h4>
+					<ul class="reset smalltext" id="msg_176172_extra_info">
+						<li>QA & Testing Team</li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/qa_testing_team.jpg" alt="*" border="0" /></li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span></li>
+						<li>Posts: 1944</li>
+						<li class="margintop">
+							<ul class="reset nolist">
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="postarea">
+					<div class="flow_hidden">
+						<div class="keyinfo">
+							<div class="messageicon"><img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" border="0" /></div>
+							<h5 id="subject_176172">
+								<a href="http://forums.contribs.org/index.php/topic,38573.msg176172.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg176172" rel="nofollow">Re: FAQ: Should I trust/follow the advice I get in this forum?</a>
+							</h5>
+							<div class="smalltext">&#171; <strong>Reply #11 on:</strong> October 08, 2007, 10:57:27 AM &#187;</div>
+							<div id="msg_176172_quick_mod"></div>
+						</div>
+					</div>
+					<div class="post">
+						<hr class="hrcolor" width="100%" size="1" />
+						<div class="inner" id="msg_176172"><div class="quoteheader"><div class="topslice_quote"><a href="http://forums.contribs.org/index.php/topic,38573.msg176166.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg176166">Quote from: cactus on October 08, 2007, 09:55:36 AM</a></div></div><blockquote class="bbc_standard_quote">Is this new or did I just not see it all the time?</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />It&#039;s newly implemented. </div>
+					</div>
+				</div>
+				<div class="moderatorbar">
+					<div class="smalltext floatleft" id="modified_176172">
+					</div>
+					<div class="smalltext largepadding floatright">
+						<img src="http://forums.contribs.org/Themes/core/images/ip.gif" alt="" border="0" />
+						Logged
+					</div>
+					<div class="signature" id="msg_176172_signature">--[byte]--<br /><br />Have you filled in a Bug Report over @ <a href="http://bugs.contribs.org" class="bbc_link new_win" target="_blank">http://bugs.contribs.org</a> ? Please don&#39;t wait to be told this way you help us to help you/others - Thanks!</div>
+				</div>
+			</div>
+		</div>
+		<div class="bordercolor">
+			<a id="msg176173"></a>
+			<div class="clearfix topborder windowbg largepadding">
+				<div class="floatleft poster">
+					<h4><a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=profile;u=251" title="View the profile of byte">byte</a></h4>
+					<ul class="reset smalltext" id="msg_176173_extra_info">
+						<li>QA & Testing Team</li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/qa_testing_team.jpg" alt="*" border="0" /></li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span></li>
+						<li>Posts: 1944</li>
+						<li class="margintop">
+							<ul class="reset nolist">
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="postarea">
+					<div class="flow_hidden">
+						<div class="keyinfo">
+							<div class="messageicon"><img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" border="0" /></div>
+							<h5 id="subject_176173">
+								<a href="http://forums.contribs.org/index.php/topic,38573.msg176173.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg176173" rel="nofollow">Re: FAQ: Should I trust/follow the advice I get in this forum?</a>
+							</h5>
+							<div class="smalltext">&#171; <strong>Reply #12 on:</strong> October 08, 2007, 11:01:59 AM &#187;</div>
+							<div id="msg_176173_quick_mod"></div>
+						</div>
+					</div>
+					<div class="post">
+						<hr class="hrcolor" width="100%" size="1" />
+						<div class="inner" id="msg_176173"><div class="quoteheader"><div class="topslice_quote"><a href="http://forums.contribs.org/index.php/topic,38573.msg176168.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg176168">Quote from: Normando on October 08, 2007, 10:28:43 AM</a></div></div><blockquote class="bbc_standard_quote">My member status only allow view, but not review<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />We all should be able to see this in our profile...<br /><br />&quot;Who changed my karma&nbsp; &nbsp; &nbsp;Whose karma have I changed&quot;<br /><br />If you can&#039;t please raise a bug in the website section. Thanks.</div>
+					</div>
+				</div>
+				<div class="moderatorbar">
+					<div class="smalltext floatleft" id="modified_176173">
+					</div>
+					<div class="smalltext largepadding floatright">
+						<img src="http://forums.contribs.org/Themes/core/images/ip.gif" alt="" border="0" />
+						Logged
+					</div>
+					<div class="signature" id="msg_176173_signature">--[byte]--<br /><br />Have you filled in a Bug Report over @ <a href="http://bugs.contribs.org" class="bbc_link new_win" target="_blank">http://bugs.contribs.org</a> ? Please don&#39;t wait to be told this way you help us to help you/others - Thanks!</div>
+				</div>
+			</div>
+		</div>
+		<div class="bordercolor">
+			<a id="msg176175"></a>
+			<div class="clearfix topborder windowbg2 largepadding">
+				<div class="floatleft poster">
+					<h4><a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=profile;u=6496" title="View the profile of cactus">cactus</a></h4>
+					<ul class="reset smalltext" id="msg_176175_extra_info">
+						<li>Wiki & Docs Team</li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/wiki_docs_team.jpg" alt="*" border="0" /></li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span></li>
+						<li>Posts: 3896</li>
+						<li class="margintop">
+							<ul class="reset nolist">
+								<li><a href="http://www.snetram.nl" title="http://www.snetram.nl" target="_blank" class="new_win"><img src="http://forums.contribs.org/Themes/core/images/www_sm.gif" alt="http://www.snetram.nl" border="0" /></a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="postarea">
+					<div class="flow_hidden">
+						<div class="keyinfo">
+							<div class="messageicon"><img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" border="0" /></div>
+							<h5 id="subject_176175">
+								<a href="http://forums.contribs.org/index.php/topic,38573.msg176175.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg176175" rel="nofollow">Re: FAQ: Should I trust/follow the advice I get in this forum?</a>
+							</h5>
+							<div class="smalltext">&#171; <strong>Reply #13 on:</strong> October 08, 2007, 11:11:01 AM &#187;</div>
+							<div id="msg_176175_quick_mod"></div>
+						</div>
+					</div>
+					<div class="post">
+						<hr class="hrcolor" width="100%" size="1" />
+						<div class="inner" id="msg_176175"><div class="quoteheader"><div class="topslice_quote"><a href="http://forums.contribs.org/index.php/topic,38573.msg176172.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg176172">Quote from: byte on October 08, 2007, 10:57:27 AM</a></div></div><blockquote class="bbc_standard_quote">It&#039;s newly implemented. <br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>Kudos! I just yesterday installed SMF on my test server with the karma plugin to try and see what I could do to to make it fit to the forums but it seems someone beet me to it <img src="http://forums.contribs.org/Smileys/default/smile.gif" alt="&#58;-&#41;" title="Smile" border="0" class="smiley" /></div>
+					</div>
+				</div>
+				<div class="moderatorbar">
+					<div class="smalltext floatleft" id="modified_176175">
+					</div>
+					<div class="smalltext largepadding floatright">
+						<img src="http://forums.contribs.org/Themes/core/images/ip.gif" alt="" border="0" />
+						Logged
+					</div>
+					<div class="signature" id="msg_176175_signature"><span style="font-size: 8pt;" class="bbc_size">Be careful whose advice you buy, but be patient with those who supply it. Advice is a form of nostalgia, dispensing it is a way of fishing the past from the disposal, wiping it off, painting over the ugly parts and recycling it for more than its worth ~ Baz Luhrmann - <a href="http://en.wikipedia.org/wiki/Wear_Sunscreen#.22Wear_Sunscreen.22_as_a_music_single" class="bbc_link new_win" target="_blank">Everybody&#39;s Free (To Wear Sunscreen)</a></span></div>
+				</div>
+			</div>
+		</div>
+		<div class="bordercolor">
+			<a id="msg176181"></a>
+			<div class="clearfix topborder windowbg largepadding">
+				<div class="floatleft poster">
+					<h4><a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=profile;u=2079" title="View the profile of Normando">Normando</a></h4>
+					<ul class="reset smalltext" id="msg_176181_extra_info">
+						<li>Forum Moderator (ES)</li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/forum_moderator.jpg" alt="*" border="0" /></li>
+						<li><img src="http://forums.contribs.org/Themes/core/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span></li>
+						<li>Posts: 836</li>
+						<li class="margintop">
+							<ul class="reset nolist">
+								<li><a href="http://www.unixlan.com.ar" title="Unixlan" target="_blank" class="new_win"><img src="http://forums.contribs.org/Themes/core/images/www_sm.gif" alt="Unixlan" border="0" /></a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="postarea">
+					<div class="flow_hidden">
+						<div class="keyinfo">
+							<div class="messageicon"><img src="http://forums.contribs.org/Themes/core/images/post/xx.gif" alt="" border="0" /></div>
+							<h5 id="subject_176181">
+								<a href="http://forums.contribs.org/index.php/topic,38573.msg176181.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg176181" rel="nofollow">Re: FAQ: Should I trust/follow the advice I get in this forum?</a>
+							</h5>
+							<div class="smalltext">&#171; <strong>Reply #14 on:</strong> October 08, 2007, 12:00:16 PM &#187;</div>
+							<div id="msg_176181_quick_mod"></div>
+						</div>
+					</div>
+					<div class="post">
+						<hr class="hrcolor" width="100%" size="1" />
+						<div class="inner" id="msg_176181"><div class="quoteheader"><div class="topslice_quote"><a href="http://forums.contribs.org/index.php/topic,38573.msg176173.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg176173">Quote from: byte on October 08, 2007, 11:01:59 AM</a></div></div><blockquote class="bbc_standard_quote">We all should be able to see this in our profile...<br /><br />&quot;Who changed my karma&nbsp; &nbsp; &nbsp;Whose karma have I changed&quot;<br /><br />If you can&#039;t please raise a bug in the website section. Thanks.<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>Yes Byte, I can see who and why change my karma. My question is about review my karma.<br />Read from <a href="http://forums.contribs.org/index.php/topic,38704.msg175677.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#msg175677" class="bbc_link new_win" target="_blank">http://forums.contribs.org/index.php?topic=38704.msg175677#msg175677</a> to the end.<br />Because I am spanish moderator, 80% of my posts are in spanish forum, and any developer can&#039;t evaluate my real karma or &quot;Advice given&quot;.<br /><br />I am very in discord with this system. I know I have a lot of good &quot;Advices given&quot; in spanish forum and here too. <br />Sorry for discuss here and not in bug tracker because I only want to clarify the situation.</div>
+					</div>
+				</div>
+				<div class="moderatorbar">
+					<div class="smalltext floatleft" id="modified_176181">
+					</div>
+					<div class="smalltext largepadding floatright">
+						<img src="http://forums.contribs.org/Themes/core/images/ip.gif" alt="" border="0" />
+						Logged
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
+<a id="lastPost"></a>
+<div class="clearfix marginbottom" id="postbuttons_lower">
+	<div class="nav floatright">
+		<div class="buttonlist">
+			<ul class="reset clearfix">
+				<li class="last"><a class="button_strip_print" href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=printpage;topic=38573.0" rel="new_win nofollow"><span>Print</span></a></li>
+			</ul>
+		</div></div>
+	<div class="middletext floatleft">Pages: [<strong>1</strong>] <a class="navPages" href="http://forums.contribs.org/index.php/topic,38573.15.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14">2</a> &nbsp;<a href="http://forums.contribs.org/index.php/topic,38573.0/all.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14">All</a>   &nbsp;&nbsp;<a href="#top"><strong>Go Up</strong></a></div>
+	<div class="clear"><a href="http://forums.contribs.org/index.php/topic,38573.0/prev_next,prev.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#new">&laquo; previous</a> <a href="http://forums.contribs.org/index.php/topic,38573.0/prev_next,next.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14#new">next &raquo;</a></div>
+</div>
+	<ul class="linktree" id="linktree_lower">
+		<li>
+			<a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;"><span>Contribs.org</span></a> &gt;
+		</li>
+		<li>
+			<a href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;#c2"><span>Contribs.org Forums</span></a> &gt;
+		</li>
+		<li>
+			<a href="http://forums.contribs.org/index.php/board,9.0.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14"><span>SME Server 7.x</span></a> &gt;
+		</li>
+		<li class="last">Topic: 
+			<a href="http://forums.contribs.org/index.php/topic,38573.0.html?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14"><span>FAQ: Should I trust/follow the advice I get in this forum?</span></a>
+		</li>
+	</ul>
+<div id="moderationbuttons" class="clearfix"></div>
+<div class="tborder">
+	<div class="titlebg2" style="padding: 4px;" align="right" id="display_jump_to">&nbsp;</div>
+</div><br />
+<form action="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=spellcheck" method="post" accept-charset="UTF-8" name="spell_form" id="spell_form" target="spellWindow"><input type="hidden" name="spellstring" value="" /></form>
+<script type="text/javascript" src="http://forums.contribs.org/Themes/default/scripts/spellcheck.js"></script>
+<script type="text/javascript" src="http://forums.contribs.org/Themes/default/scripts/topic.js"></script>
+<script type="text/javascript"><!-- // --><![CDATA[
+	if ('XMLHttpRequest' in window)
+	{
+		var oQuickModify = new QuickModify({
+			sScriptUrl: smf_scripturl,
+			bShowModify: true,
+			iTopicId: 38573,
+			sTemplateBodyEdit: '\n\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t<input type="hidden" name="ca19b29d75" value="1a1c7c749f7b3971a569d9bbc8ba8ed7" />\n\t\t\t\t\t<input type="hidden" name="topic" value="38573" />\n\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t<input type="submit" name="post" value="Save" tabindex="2" onclick="return oQuickModify.modifySave(\'1a1c7c749f7b3971a569d9bbc8ba8ed7\', \'ca19b29d75\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="button" value="Spell Check" tabindex="3" onclick="spellCheck(\'quickModForm\' . \'message\');" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="Cancel" tabindex="4" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t<' + '/div>\n\t\t\t\t<' + '/div>',
+			sTemplateSubjectEdit: '<input type="text" style="width: 90%" name="subject" value="%subject%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+			sTemplateBodyNormal: '%body%',
+			sTemplateSubjectNormal: '<a hr' + 'ef="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;' + '?topic=38573.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+			sTemplateTopSubject: 'Topic: %subject% &nbsp;(Read 11186 times)',
+			sErrorBorderStyle: '1px solid red'
+		});
+
+		aJumpTo[aJumpTo.length] = new JumpTo({
+			sContainerId: "display_jump_to",
+			sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">Jump to:<" + "/label> %dropdown_list%",
+			iCurBoardId: 9,
+			iCurBoardChildLevel: 0,
+			sCurBoardName: "SME Server 7.x",
+			sBoardChildLevelIndicator: "==",
+			sBoardPrefix: "=> ",
+			sCatSeparator: "-----------------------------",
+			sCatPrefix: "",
+			sGoButtonLabel: "go"
+		});
+
+		aIconLists[aIconLists.length] = new IconList({
+			sBackReference: "aIconLists[" + aIconLists.length + "]",
+			sIconIdPrefix: "msg_icon_",
+			sScriptUrl: smf_scripturl,
+			bShowModify: true,
+			iBoardId: 9,
+			iTopicId: 38573,
+			sSessionId: "1a1c7c749f7b3971a569d9bbc8ba8ed7",
+			sSessionVar: "ca19b29d75",
+			sLabelIconList: "Message Icon",
+			sBoxBackground: "transparent",
+			sBoxBackgroundHover: "#ffffff",
+			iBoxBorderWidthHover: 1,
+			sBoxBorderColorHover: "#adadad" ,
+			sContainerBackground: "#ffffff",
+			sContainerBorder: "1px solid #adadad",
+			sItemBorder: "1px solid #ffffff",
+			sItemBorderHover: "1px dotted gray",
+			sItemBackground: "transparent",
+			sItemBackgroundHover: "#e0e0f0"
+		});
+	}
+	// ]]></script>
+			<script type="text/javascript"><!-- // --><![CDATA[
+				var verificationpostHandle = new smfCaptcha("http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=verificationcode;vid=post;rand=6da4ca811e36e83d49a2a39e356a377d", "post", 1);
+			// ]]></script>
+	</div>
+	<div id="footerarea" class="headerpadding topmargin clearfix">
+		<ul class="reset smalltext">
+			<li class="copywrite">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://forums.contribs.org/index.php?PHPSESSID=vqr5gjd0frvtco7j85kqh33o14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("UA-11686771-1");
+    pageTracker._setDomainName(".contribs.org");
+    pageTracker._trackPageview();
+} catch(err) {}</script></body></html>

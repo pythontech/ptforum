@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<link rel="top" href="./index.php" title="Freeman Cruiser Fan Club Forum Index" />
+<link rel="search" href="./search.php" title="Search" />
+<link rel="help" href="./faq.php" title="FAQ" />
+<link rel="author" href="./memberlist.php" title="Memberlist" />
+<link rel="up" href="index.php" title="Freeman Cruiser Fan Club Forum Index" />
+<!—- base url -->
+<title>Freeman Cruiser Fan Club :: View Forum - The Repair Bay</title>
+<link rel="stylesheet" href="templates/fiappleblue/fiappleblue.css" type="text/css" />
+<script type="text/javascript">
+<!--
+	if ( 0 )
+	{
+		window.open('privmsg.php?mode=newpm', '_phpbbprivmsg', 'HEIGHT=225,resizable=yes,WIDTH=400');;
+	}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+window.status="You have no new messages"
+// -->
+</script>
+</head>
+<body><a name="top" id="top"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="100%"><table border="0" cellpadding="0" cellspacing="0">
+<tr> 
+<td><a href="index.php"><img src="images/spacer.gif" width="10" height="26" border="0" alt="" /></a></td>
+<td><a href="index.php"><img src="templates/fiappleblue/images/top_bar_index.gif" width="80" height="26" border="0" alt="Freeman Cruiser Fan Club Forum Index" title="Freeman Cruiser Fan Club Forum Index" /></a></td>
+<td><a href="faq.php"><img src="templates/fiappleblue/images/top_bar_faq.gif" width="80" height="26" border="0" alt="FAQ" title="FAQ" /></a></td>
+<td><a href="memberlist.php"><img src="templates/fiappleblue/images/top_bar_memberlist.gif" width="80" height="26" border="0" alt="Memberlist" title="Memberlist" /></a></td>
+<td><a href="search.php"><img src="templates/fiappleblue/images/top_bar_search.gif" width="80" height="26" border="0" alt="Search" title="Search" /></a></td>
+<td><a href="groupcp.php"><img src="templates/fiappleblue/images/top_bar_usergroups.gif" width="80" height="26" border="0" alt="Usergroups" title="Usergroups" /></a></td>
+<td><a href="profile.php?mode=editprofile"><img src="templates/fiappleblue/images/top_bar_profile.gif" width="80" height="26" border="0" alt="Profile" title="Profile" /></a></td>
+<td><a href="privmsg.php?folder=inbox"><img src="templates/fiappleblue/images/top_bar_inbox.gif" width="80" height="26" border="0" alt="You have no new messages" title="You have no new messages" /></a></td>
+<td><a href="login.php?logout=true&amp;sid=f5399bddc0e4738657c5411309c516bd"><img src="templates/fiappleblue/images/top_bar_logout.gif" width="80" height="26" border="0" alt="Log out [ colinhogben ]" title="Log out [ colinhogben ]" /></a></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="ttb">
+<tr> 
+<td><img src="templates/fiappleblue/images/tt12_l.gif" width="10" height="12" alt="" /></td>
+<td class="tt12bkg"><img src="images/spacer.gif" width="200" height="12" alt="" /></td>
+<td><img src="templates/fiappleblue/images/tt12_r.gif" width="10" height="12" alt="" /></td>
+</tr>
+</table>
+<table class="bodyline" width="100%" cellspacing="0" cellpadding="10" border="0"> 
+<tr> 
+<td><table border="0" cellpadding="0" cellspacing="0" class="scrn">
+<tr> 
+<td><img src="templates/fiappleblue/images/scrn_tl.gif" alt="" width="14" height="14" /></td>
+<td width="100%" class="scrntbkg"><img src="images/spacer.gif" alt="" width="10" height="14" /></td>
+<td><img src="templates/fiappleblue/images/scrn_tr.gif" alt="" width="14" height="14" /></td>
+</tr>
+<tr> 
+<td class="scrnlbkg"><img src="images/spacer.gif" alt="" width="14" height="60" /></td>
+<td class="scrnm"><a href="index.php"><img src="./images/logos/freemancruiser.3.1193170022.jpg" border="0" alt="Freeman Cruiser Fan Club Forum Index" vspace="1" /></a></td>
+<td class="scrnrbkg"><img src="images/spacer.gif" alt="" width="14" height="60" /></td>
+</tr>
+<tr> 
+<td><img src="templates/fiappleblue/images/scrn_bl.gif" alt="" width="14" height="14" /></td>
+<td width="100%" class="scrnbbkg"><img src="images/spacer.gif" alt="" width="10" height="14" /></td>
+<td><img src="templates/fiappleblue/images/scrn_br.gif" alt="" width="14" height="14" /></td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="images/spacer.gif" width="200" height="8" alt="" /></td>
+</tr>
+</table><div align=center>
+
+<!--AD_B-->
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-5207631766608049";
+google_alternate_ad_url = "http://www.forumer.com/banners/altad.html";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text_image";
+google_ad_channel ="2380859282";
+google_color_border = "F4FCFF";
+google_color_bg = "F4FCFF";
+google_color_link = "4682B4";
+google_color_url = "4682B4";
+google_color_text = "000000";
+
+//--></script>
+
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+<!--AD_E-->
+
+</div><SCRIPT LANGUAGE="JavaScript">
+<!--
+if (window != top) top.location.href = location.href;
+-->
+</SCRIPT>
+<table width="100%" border="0" cellspacing="2" cellpadding="2">
+<tr>
+<td class="maintitle"><a href="viewforum.php?f=4">The Repair Bay</a></td>
+<td class="gensmall" align="right" valign="bottom">Moderators: None<br />
+Users browsing this forum: <a href="profile.php?mode=viewprofile&amp;u=239">stewart</a><br />
+<strong><a href="viewforum.php?f=4&amp;mark=topics">Mark all topics read</a></strong></td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td><img src="images/spacer.gif" alt="" width="15" height="26" /></td>
+		<td valign="bottom">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><img src="templates/fiappleblue/images/lang_english/tabt.gif" alt="" width="80" height="6" /></td>
+				</tr>
+				<tr>
+					<td class="postbkg"><a href="posting.php?mode=newtopic&amp;f=4"><img src="templates/fiappleblue/images/lang_english/post.gif" width="80" height="20" border="0" alt="Post new topic" title="Post new topic" /></a></td>
+				</tr>
+			</table>
+		</td>
+		<td class="nav" width="100%">&nbsp;&nbsp;&nbsp;<a href="index.php">Freeman Cruiser Fan Club Forum Index</a> &raquo; <a href="viewforum.php?f=4">The Repair Bay</a></td>
+		<td class="nav" nowrap="nowrap">Goto page <b>1</b>, <a href="viewforum.php?f=4&amp;topicdays=0&amp;start=20">2</a>, <a href="viewforum.php?f=4&amp;topicdays=0&amp;start=40">3</a> ... <a href="viewforum.php?f=4&amp;topicdays=0&amp;start=200">11</a>, <a href="viewforum.php?f=4&amp;topicdays=0&amp;start=220">12</a>, <a href="viewforum.php?f=4&amp;topicdays=0&amp;start=240">13</a>&nbsp;&nbsp;<a href="viewforum.php?f=4&amp;topicdays=0&amp;start=20">Next</a>&nbsp;</td>
+	</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="ttb">
+<tr> 
+<td><img src="templates/fiappleblue/images/tt12_l.gif" width="10" height="12" alt="" /></td>
+<td class="tt12bkg"><img src="images/spacer.gif" width="200" height="12" alt="" /></td>
+<td><img src="templates/fiappleblue/images/tt12_r.gif" width="10" height="12" alt="" /></td>
+</tr>
+</table>
+<table border="0" cellpadding="2" cellspacing="1" width="100%" class="forumline">
+	<tr>
+		<th colspan="2">Topics</th>
+		<th>Replies</th>
+		<th>Author</th>
+		<th>Views</th>
+		<th>Last Post</th>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=811"><img src="templates/fiappleblue/images/folder_new.gif" width="40" height="30" alt="New posts" title="New posts" /></a></td>
+		<td class="row1" width="100%"><a href="viewtopic.php?t=811&amp;view=newest"><img src="templates/fiappleblue/images/icon_newest_reply.gif" width="18" height="9" alt="View newest post" title="View newest post" border="0" /></a> <span class="topictitle"></span><a href="viewtopic.php?t=811" class="topictitle">22 mark 1  -  more re-commissioning hiccups...</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">0</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=239">stewart</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">5</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Mon Jun 07, 2010 5:12 pm&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=239">stewart</a> <a href="viewtopic.php?p=4540#4540"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=809"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=809" class="topictitle">Prop shaft</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">0</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=50">joe rooney</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">13</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Mon Jun 07, 2010 2:20 pm&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=50">joe rooney</a> <a href="viewtopic.php?p=4538#4538"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=805"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=805" class="topictitle">back in water  tomorrow</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">2</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=124">prestbury2</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">82</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Mon Jun 07, 2010 12:42 pm&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=124">prestbury2</a> <a href="viewtopic.php?p=4537#4537"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=803"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=803" class="topictitle">freeman mk2 wiring</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">2</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=252">ronhammond</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">101</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Mon Jun 07, 2010 12:18 am&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=252">ronhammond</a> <a href="viewtopic.php?p=4536#4536"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=654"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=654" class="topictitle">Varnishing</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">13</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=27">Jeff Hair</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">440</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Sat Jun 05, 2010 9:50 am&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=310">jetwalking</a> <a href="viewtopic.php?p=4523#4523"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=807"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=807" class="topictitle">loose rudder</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">0</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=4">ian</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">39</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Fri Jun 04, 2010 8:58 pm&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=4">ian</a> <a href="viewtopic.php?p=4521#4521"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=799"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=799" class="topictitle">Remove Rudder While in Water</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">6</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=160">Mulcabe</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">173</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Fri Jun 04, 2010 10:06 am&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=54">molemot</a> <a href="viewtopic.php?p=4519#4519"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=801"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=801" class="topictitle">Roof question</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">2</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=318">Rick Hirs</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">105</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Mon May 31, 2010 8:14 pm&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=307">colinhogben</a> <a href="viewtopic.php?p=4508#4508"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=800"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=800" class="topictitle">Vedette Gearbox - and ballast for a 22 Mk 1?</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">1</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=239">stewart</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">82</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Mon May 31, 2010 6:42 pm&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=15">Jon&amp;Debs</a> <a href="viewtopic.php?p=4507#4507"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=18"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=18" class="topictitle">Dipsticks</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">7</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=2">billrix</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">432</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Sat May 29, 2010 11:23 am&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=195">hywel001</a> <a href="viewtopic.php?p=4495#4495"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=794"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=794" class="topictitle">Vedette throttle linkage  -  and starter....</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">14</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=239">stewart</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">244</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Fri May 28, 2010 10:56 pm&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=239">stewart</a> <a href="viewtopic.php?p=4492#4492"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=797"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=797" class="topictitle">Freeman 24 rubber strake</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">3</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=149">buccaneer</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">134</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Wed May 26, 2010 6:00 am&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=93">GeoffC</a> <a href="viewtopic.php?p=4485#4485"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=109"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=109" class="topictitle">Springy deck</a><span class="gensmall"><br />
+			 [ <img src="templates/fiappleblue/images/icon_minipost.gif" width="12" height="9" alt="Goto page" title="Goto page" />Goto page: <a href="viewtopic.php?t=109&amp;start=0">1</a>, <a href="viewtopic.php?t=109&amp;start=15">2</a> ] </span></td>
+		<td class="row2" align="center"><span class="gensmall">22</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=9">Andy</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">1473</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Fri May 21, 2010 6:24 am&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=307">colinhogben</a> <a href="viewtopic.php?p=4450#4450"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=793"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=793" class="topictitle">How to fit a rev counter?</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">3</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=312">Nitenurse</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">147</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Wed May 19, 2010 2:22 pm&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=253">daveg</a> <a href="viewtopic.php?p=4443#4443"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=792"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=792" class="topictitle">tree sap and other nice things</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">1</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=16">piperdog</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">153</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Sun May 16, 2010 3:06 pm&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=54">molemot</a> <a href="viewtopic.php?p=4429#4429"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=787"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=787" class="topictitle">Cutting and polishing.</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">5</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=20">Deano</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">199</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Thu May 13, 2010 6:46 pm&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=272">NitroNI</a> <a href="viewtopic.php?p=4411#4411"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=770"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=770" class="topictitle">Ampmeter jumping from + to -</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">3</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=22">Mike Nicholson</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">184</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Wed May 12, 2010 8:24 pm&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=186">mchancox</a> <a href="viewtopic.php?p=4407#4407"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=768"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=768" class="topictitle">J Type Gearbox - Reverse Noise</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">13</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=195">hywel001</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">256</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Mon May 10, 2010 7:34 pm&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=195">hywel001</a> <a href="viewtopic.php?p=4379#4379"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=780"><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=780" class="topictitle">Sound Insulation</a><span class="gensmall"><br />
+			</span></td>
+		<td class="row2" align="center"><span class="gensmall">4</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=147">shueyh</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">175</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Mon May 10, 2010 12:24 pm&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=20">Deano</a> <a href="viewtopic.php?p=4375#4375"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+		<tr>
+		<td height="34" class="row1"><a href="viewtopic.php?t=761"><img src="templates/fiappleblue/images/folder_hot.gif" width="40" height="30" alt="No new posts" title="No new posts" /></a></td>
+		<td class="row1" width="100%"><span class="topictitle"></span><a href="viewtopic.php?t=761" class="topictitle">Window rubbers again</a><span class="gensmall"><br />
+			 [ <img src="templates/fiappleblue/images/icon_minipost.gif" width="12" height="9" alt="Goto page" title="Goto page" />Goto page: <a href="viewtopic.php?t=761&amp;start=0">1</a>, <a href="viewtopic.php?t=761&amp;start=15">2</a> ] </span></td>
+		<td class="row2" align="center"><span class="gensmall">29</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;<a href="profile.php?mode=viewprofile&amp;u=120">derryboss</a>&nbsp;</span></td>
+		<td class="row2" align="center"><span class="gensmall">556</span></td>
+		<td class="row3" align="center" nowrap="nowrap"><span class="gensmall">&nbsp;Tue May 04, 2010 7:04 pm&nbsp;<br />
+			<a href="profile.php?mode=viewprofile&amp;u=120">derryboss</a> <a href="viewtopic.php?p=4338#4338"><img src="templates/fiappleblue/images/icon_latest_reply.gif" width="18" height="9" alt="View latest post" title="View latest post" border="0" /></a></span></td>
+	</tr>
+			<tr>
+		<td class="cat" align="center" colspan="6">
+			<form method="post" action="viewforum.php?f=4&amp;start=0">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td class="gensmall">Display topics from previous:&nbsp;</td>
+						<td><select name="topicdays"><option value="0" selected="selected">All Topics</option><option value="1">1 Day</option><option value="7">7 Days</option><option value="14">2 Weeks</option><option value="30">1 Month</option><option value="90">3 Months</option><option value="180">6 Months</option><option value="364">1 Year</option></select>&nbsp;</td>
+						<td><input type="submit" class="catbutton" value="Go" name="submit" />
+						</td>
+					</tr>
+				</table>
+			</form>
+		</td>
+	</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="ttb">
+	<tr>
+		<td><img src="templates/fiappleblue/images/tb12_l.gif" width="10" height="12" alt="" /></td>
+		<td class="tb12bkg"><img src="images/spacer.gif" width="200" height="12" alt="" /></td>
+		<td><img src="templates/fiappleblue/images/tb12_r.gif" width="10" height="12" alt="" /></td>
+	</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td><img src="images/spacer.gif" alt="" width="15" height="26" /></td>
+		<td valign="top">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><img src="templates/fiappleblue/images/lang_english/tabsp.gif" alt="" width="80" height="2" /></td>
+				</tr>
+				<tr>
+					<td class="postbkg"><a href="posting.php?mode=newtopic&amp;f=4"><img src="templates/fiappleblue/images/lang_english/post.gif" width="80" height="20" border="0" alt="Post new topic" title="Post new topic" /></a></td>
+				</tr>
+				<tr>
+					<td><img src="templates/fiappleblue/images/lang_english/tabb.gif" alt="" width="80" height="6" /></td>
+				</tr>
+			</table>
+		</td>
+		<td class="nav" width="100%">&nbsp;&nbsp;&nbsp;<a href="index.php">Freeman Cruiser Fan Club Forum Index</a> &raquo; <a href="viewforum.php?f=4">The Repair Bay</a></td>
+		<td class="nav" nowrap="nowrap">Goto page <b>1</b>, <a href="viewforum.php?f=4&amp;topicdays=0&amp;start=20">2</a>, <a href="viewforum.php?f=4&amp;topicdays=0&amp;start=40">3</a> ... <a href="viewforum.php?f=4&amp;topicdays=0&amp;start=200">11</a>, <a href="viewforum.php?f=4&amp;topicdays=0&amp;start=220">12</a>, <a href="viewforum.php?f=4&amp;topicdays=0&amp;start=240">13</a>&nbsp;&nbsp;<a href="viewforum.php?f=4&amp;topicdays=0&amp;start=20">Next</a>&nbsp;</td>
+	</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="2">
+<tr>
+<td><br /><form method="get" name="jumpbox" action="viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="gensmall" nowrap="nowrap">&nbsp;Jump to:&nbsp;</td>
+<td><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Select a forum</option><option value="-1">&nbsp;</option><option value="-1">Freeman Cruiser Fan Club</option><option value="-1">----------------</option><option value="5">Important Internet Security Information</option><option value="2">The Engine Room</option><option value="4">The Repair Bay</option><option value="1">Freeman Chat</option><option value="3">Events</option><option value="-1">&nbsp;</option><option value="-1">Boat Parts Market</option><option value="-1">----------------</option><option value="8">Conditions of Use</option><option value="7">BOATING ITEMS FOR SALE</option><option value="9">BOATING ITEMS WANTED</option><option value="10">FREE BOATING ITEMS</option><option value="11">BOAT RELATED COMPANIES</option></select><input type="hidden" name="sid" value="f5399bddc0e4738657c5411309c516bd" />&nbsp;</td>
+<td><input type="submit" value="Go" class="catbutton" />
+</td>
+</tr>
+</table>
+</form>
+</td>
+<td class="gensmall" align="right" valign="top"><strong><a href="viewforum.php?f=4&amp;mark=topics">Mark all topics read</a></strong><br />
+Moderators: None<br />
+Users browsing this forum: <a href="profile.php?mode=viewprofile&amp;u=239">stewart</a></td>
+</tr>
+</table>
+<br />
+<table border="0" cellpadding="0" cellspacing="0" class="ttb">
+<tr> 
+<td><img src="templates/fiappleblue/images/tt12_l.gif" width="10" height="12" alt="" /></td>
+<td class="tt12bkg"><img src="images/spacer.gif" width="200" height="12" alt="" /></td>
+<td><img src="templates/fiappleblue/images/tt12_r.gif" width="10" height="12" alt="" /></td>
+</tr>
+</table>
+<table class="forumline" width="100%" cellspacing="1" border="0" cellpadding="4">
+	<tr>
+		<th colspan="2">Key</th>
+	</tr>
+	<tr>
+		<td class="row2" valign="top">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><img src="templates/fiappleblue/images/folder_new.gif" width="40" height="30" alt="New posts" title="New posts" /></td>
+					<td class="gensmall">&nbsp;New posts</td>
+					<td>&nbsp;&nbsp;</td>
+					<td><img src="templates/fiappleblue/images/folder.gif" width="40" height="30" alt="No new posts" title="No new posts" /></td>
+					<td class="gensmall">&nbsp;No new posts</td>
+					<td>&nbsp;&nbsp;</td>
+					<td><img src="templates/fiappleblue/images/folder_announce.gif" width="40" height="30" alt="Announcement" title="Announcement" /></td>
+					<td class="gensmall">Announcement</td>
+				</tr>
+				<tr>
+					<td><img src="templates/fiappleblue/images/folder_lock_new.gif" width="40" height="30" alt="New posts [ Locked ]" title="New posts [ Locked ]" /></td>
+					<td class="gensmall">New posts [ Locked ]</td>
+					<td>&nbsp;</td>
+					<td><img src="templates/fiappleblue/images/folder_lock.gif" width="40" height="30" alt="No new posts [ Locked ]" title="No new posts [ Locked ]" /></td>
+					<td class="gensmall">No new posts [ Locked ]</td>
+					<td>&nbsp;</td>
+					<td><img src="templates/fiappleblue/images/folder_sticky.gif" width="40" height="30" alt="Sticky" title="Sticky" /></td>
+					<td class="gensmall">Sticky</td>
+				</tr>
+				<tr>
+					<td><img src="templates/fiappleblue/images/folder_new_hot.gif" width="40" height="30" alt="New posts [ Popular ]" title="New posts [ Popular ]" /></td>
+					<td class="gensmall">New posts [ Popular ]</td>
+					<td>&nbsp;</td>
+					<td><img src="templates/fiappleblue/images/folder_hot.gif" width="40" height="30" alt="No new posts [ Popular ]" title="No new posts [ Popular ]" /></td>
+					<td class="gensmall">No new posts [ Popular ]</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+		<td class="row2" align="right"><span class="gensmall">You <b>can</b> post new topics in this forum<br />You <b>can</b> reply to topics in this forum<br />You <b>can</b> edit your posts in this forum<br />You <b>can</b> delete your posts in this forum<br />You <b>can</b> vote in polls in this forum<br /></span></td>
+	</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="ttb">
+	<tr>
+		<td><img src="templates/fiappleblue/images/tb12_l.gif" width="10" height="12" alt="" /></td>
+		<td class="tb12bkg"><img src="images/spacer.gif" width="200" height="12" alt="" /></td>
+		<td><img src="templates/fiappleblue/images/tb12_r.gif" width="10" height="12" alt="" /></td>
+	</tr>
+</table>
+<div align="center" class="gensmall"><br /><br /> 
+
+
+</div>
+
+
+<a name="bot" id="bot"></a></td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0" class="ttb">
+<tr> 
+<td><img src="templates/fiappleblue/images/tb12_l.gif" width="10" height="12" alt="" /></td>
+<td class="tb12bkg"><img src="images/spacer.gif" width="200" height="12" alt="" /></td>
+<td><img src="templates/fiappleblue/images/tb12_r.gif" width="10" height="12" alt="" /></td>
+</tr>
+</table>
+</body>
+</html>
+<style type="text/css">
+  @import url("/footers/11/style.css");
+</style> 
+
+<div class="footer-torn">
+        
+</div>
+<div class="footer-container">
+	<div class="footer-wrap">
+    	<div class="footer-f"></div>
+        <div class="footer-content">
+            <div class="r1c1">
+               	  Get your own forum today!
+            </div>
+			<div class="r1c2">
+				Signup
+			</div>
+			<div class="r1c3">
+				Support
+			</div>
+            <div class="r1c4">
+				Contribute
+			</div>
+			<div class="r2c1">
+				Adding a Forumer&trade; community to your website is a great way to get return visitors. Create a forum and see how a loyal community of users will propel your site/product/business to a new level. It takes 15 seconds to get started!
+		  </div>
+			<div class="r2c2">
+				<div class="footlink"><a href="http://www.forumer.com/">Forumer phpBB3</a></div>
+                <div class="footlink"><a href="http://www.forumer.com/">Forumer phpBB2</a></div>
+				<div class="footlink"><a href="http://www.forumer.com/">Forumer IPB</a></div>
+			</div>
+			<div class="r2c3">
+				<div class="footlink"><a href="http://fhq.forumer.com/">Support</a> |  <a href="http://kb.forumer.com/">KB</a></div>
+				<div class="footlink"><a href="http://www.forumer.com/terms.php">Terms of Use</a></div>
+				<div class="footlink"><a href="http://www.forumer.com/contact.php?abuse=http%3A%2F%2Ffreemancruiser.12.forumer.com">Report Abuse</a></div>
+				<div class="footlink"><a href="http://www.forumer.com/privacy.php">Privacy Policy</a></div>				
+				<div class="footlink"><a href="/a/the-repair-bay-4/">Arch</a> | s12</div>
+			</div>
+            <div class="r2c4">
+            	<div class="footlink"><a title="" href="http://www.trialpay.com/stores/forumer/adremoval30000?tid=6rGU5Yo&sid=freemancruiser">fContribute</a></div>
+			
+<div id="piggy" class="piggy"><a class="piggy" href="pb.php"></a></div>
+
+</div>
+        </div>
+        
+    </div>
+</div>
+<div class="footer-copyright">
+        	Powered by <span class="footlink"><a href="http://www.forumer.com">Forumer</a></span> & <span class="footlink"><a href="http://www.phpbb.com" target="_new" rel="nofollow">phpBB</a></span> &copy; 2003-2010. All Rights Reserved.
+        </div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-215544-1");
+pageTracker._setDomainName("none");
+pageTracker._setAllowLinker(true);
+pageTracker._trackPageview();
+} catch(err) {}</script>
