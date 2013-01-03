@@ -1,11 +1,12 @@
 #=======================================================================
-#       $Id: tests.py,v 1.1 2010/06/08 13:49:11 pythontech Exp $
 #	Regression tests for ptforum
 #=======================================================================
 import ptforum.phpbb
+import ptforum.phpbb3
 import ptforum.smf2
 import unittest
 
+# Subclass site classes to fetch pags from static files
 class FakePhpbbSite(ptforum.phpbb.Site):
     def __init__(self, fakedir='.', *args, **kw):
         ptforum.phpbb.Site.__init__(self, *args, **kw)
@@ -25,6 +26,17 @@ class FakeSmf2Site(ptforum.smf2.Site):
         fakefile = self.fakedir + '/' + url.split('/')[-1]
         content = open(fakefile).read()
         return content
+
+class FakePhpbb3Site(ptforum.phpbb3.Site):
+    def __init__(self, fakedir='.', *args, **kw):
+        ptforum.phpbb3.Site.__init__(self, *args, **kw)
+        self.fakedir = fakedir
+
+    def really_get_page(self, url):
+        fakefile = self.fakedir + '/' + url.split('/')[-1]
+        content = open(fakefile).read()
+        return content
+
 
 class TestPhpbb(unittest.TestCase):
     def test_topics(self):
