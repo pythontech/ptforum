@@ -228,10 +228,16 @@ class Forum(object):
 
     def new_posts(self):
         posts = []
-        html = self.site.get_forum_page(self)
-        topics = self.site.forum_page_topics(self, html)
-        for topic in topics:
-            posts += self.topic_new_posts(topic)
+        page = self.site.get_forum_page(self)
+        if hasattr(self.site, 'forum_page_posts'):
+            # Direct forum -> posts e.g. from Atom feed
+            for post in self.site.forum_page_posts(self, page):
+                if post.is_new():
+                    posts.append(post)
+        else:
+            topics = self.site.forum_page_topics(self, page)
+            for topic in topics:
+                posts += self.topic_new_posts(topic)
         posts.sort(key=lambda p: p.datetime)
         return posts
 
