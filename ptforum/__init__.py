@@ -11,7 +11,7 @@ import cookielib
 
 _logger = logging.getLogger('ptforum')
 
-class Site:
+class Site(object):
     def __init__(self, baseUrl=None, cacheDir=None, 
                  fromPattern='%s', messageIdPattern=None, pageDelay=0,
                  sendmail='/usr/lib/sendmail'):
@@ -42,23 +42,28 @@ class Site:
 
     def login(self, username, password):
         '''Post login credentials (needed to view some forums).'''
-        raise NotImplementedError, '%s needs to implement login method' % self.__class__
+        raise NotImplementedError('%s needs to implement login method'
+                                  % self.__class__)
 
     def get_forum_page(self, forum):
         '''Get the main page for a forum, containing a list of topics.'''
-        raise NotImplementedError, '%s needs to implement get_forum_page method' % self.__class__
+        raise NotImplementedError('%s needs to implement get_forum_page method'
+                                  % self.__class__)
 
     def forum_page_topics(self, forum, html):
 	'''Find all the topics on a forum page.'''
-        raise NotImplementedError, '%s needs to implement forum_page_topics method' % self.__class__
+        raise NotImplementedError('%s needs to implement forum_page_topics method'
+                                  % self.__class__)
 
     def get_topic_page(self, topic):
         '''Get main page of topic, containing list of posts.'''
-        raise NotImplementedError, '%s needs to implement get_topic_page method' % self.__class__
+        raise NotImplementedError('%s needs to implement get_topic_page method'
+                                  % self.__class__)
 
     def topic_page_posts(self, topic, html):
 	'''Scan a topic page and get a list of posts.'''
-        raise NotImplementedError, '%s needs to implement topic_page_posts method' % self.__class__
+        raise NotImplementedError('%s needs to implement topic_page_posts method'
+                                  % self.__class__)
 
     def forum_post_as_email(self, forum, post):
 	'''Convert a post to email'''
@@ -113,14 +118,14 @@ class Site:
             cachefile = '%s/%s' % (self.cacheDir, tail)
             if os.path.exists(cachefile):
                 _logger.debug('Using cache: %s', cachefile)
-                content = open(cachefile).read()
+                with open(cachefile,'r') as f:
+                    content = f.read()
             else:
                 content = self.really_get_page(url)
                 try:
-                    f = open(cachefile,'w')
-                    f.write(content)
-                    f.close()
-                except Exception, e:
+                    with open(cachefile,'w') as f:
+                        f.write(content)
+                except Exception as e:
                     sys.stderr.write('Cannot write %s: %s\n' %
                                      (cachefile, e.args[0]))
                     pass
@@ -147,7 +152,7 @@ class Site:
         content = doc.read()
         return content
 
-class Forum:
+class Forum(object):
     def __init__(self, site=None, forumId='1', baseUrl=None,
 		 savefile='forum.save', dumpDir='.', cacheDir=None,
                  subjectPrefix='',
@@ -176,45 +181,42 @@ class Forum:
             return
         filename = '%s/%s-%s' % (self.dumpDir, self.forumId, fname)
         try:
-            f = open(filename,'w')
-            f.write(text)
-            f.close()
+            with open(filename,'w') as f:
+                f.write(text)
             _logger.info('Wrote %s', filename)
-        except Exception, e:
-            _logger.error('Writing %s: %s', filename, e.args[0])
+        except Exception as e:
+            _logger.error('Writing %s: %s', filename, e)
 
     def state_save(self):
 	'''Save topic details to persistent store'''
-	save = open(self.savefile,'w')
-        tids = self.topics.keys()
-        tids.sort()
-        # print tids
-        for tid in tids:
-	    topic = self.topics[tid]
-	    save.write('topic %s firstpost=%s lastpost=%s\n' %
-		       (tid, 
-			topic.firstpost or '', topic.lastpost or ''))
-	save.close()
+	with open(self.savefile,'w') as save:
+            tids = self.topics.keys()
+            tids.sort()
+            # print tids
+            for tid in tids:
+                topic = self.topics[tid]
+                save.write('topic %s firstpost=%s lastpost=%s\n' %
+                           (tid, 
+                            topic.firstpost or '', topic.lastpost or ''))
 
     def state_load(self):
 	'''Load topic details from persistent store'''
         if not os.path.exists(self.savefile):
             _logger.warning('Skipping missing savefile %s', self.savefile)
             return
-	save = open(self.savefile)
-	topics = {}
-	topicRE = re.compile(r'topic (\d+) firstpost=(\d*) lastpost=(\d*)')
-	for line in save:
-	    m = topicRE.match(line)
-	    if m:
-		tid, first, last = m.groups()
-		topics[tid] = Topic(tid=tid,
-                                    firstpost=first,
-                                    lastpost=last)
-	    else:
-		raise Exception, 'Unknown line in %s: %s\n' % \
-		      (self.savefile, line)
-	save.close()
+	with open(self.savefile) as save:
+            topics = {}
+            topicRE = re.compile(r'topic (\d+) firstpost=(\d*) lastpost=(\d*)')
+            for line in save:
+                m = topicRE.match(line)
+                if m:
+                    tid, first, last = m.groups()
+                    topics[tid] = Topic(tid=tid,
+                                        firstpost=first,
+                                        lastpost=last)
+                else:
+                    raise ValueError('Unknown line in %s: %s\n' %
+                                     (self.savefile, line))
 	self.topics = topics
 
     def mail_new(self):
@@ -261,14 +263,14 @@ class Forum:
         email = self.post_as_email(post)
         # FIXME sendmail
         if 0:
-            print email
+            print(email)
         else:
             _logger.info('posting %s', post.pid)
             f = os.popen(self.site.sendmail+' -t -oi','w')
             f.write(email)
             rc = f.close()
 
-class Topic:
+class Topic(object):
     def __init__(self, tid, title=None, author=None, replies=0, firstpost=None, lastpost=None):
 	self.tid = tid
 	self.title = title
@@ -278,9 +280,9 @@ class Topic:
 	self.lastpost = lastpost
 
     def __repr__(self):
-        return '<Topic %s "%s">' % (self.tid, self.title)
+        return '<Topic %s %r>' % (self.tid, self.title)
 
-class Post:
+class Post(object):
     def __init__(self, pid, subject=None, author=None, datetime=None, body=None, topic=None):
 	self.pid = pid
 	self.subject = subject
@@ -290,7 +292,7 @@ class Post:
 	self.topic = topic
 
     def __repr__(self):
-        return '<Post %s "%s">' % (self.pid, self.subject)
+        return '<Post %s %r>' % (self.pid, self.subject)
 
     def is_new(self):
         return (int(self.pid) > int(self.topic.lastpost or 0))
