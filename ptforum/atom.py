@@ -60,6 +60,8 @@ class Site(ptforum.Site):
             xtitle = xentry.find(atom+'title')
             ttype = xtitle.attrib['type']
             subject = xtitle.text
+            if subject.startswith(forum.subjectRemove):
+                subject = subject[len(forum.subjectRemove):]
             # Get content
             xcontent = xentry.find(atom+'content')
             ctype = xcontent.attrib['type']

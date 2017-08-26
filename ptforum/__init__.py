@@ -156,6 +156,7 @@ class Forum(object):
     def __init__(self, site=None, forumId='1', baseUrl=None,
 		 savefile='forum.save', dumpDir='.', cacheDir=None,
                  subjectPrefix='',
+                 subjectRemove='',
 		 fromPattern='%s', recipient=None, messageIdPattern='%p',
                  pageDelay=0, sendmail='/usr/lib/sendmail'):
         if site is None:
@@ -172,6 +173,7 @@ class Forum(object):
             dumpDir = os.path.expanduser(dumpDir)
 	self.dumpDir = dumpDir
 	self.subjectPrefix = subjectPrefix
+	self.subjectRemove = subjectRemove
 	self.recipient = recipient
         self.use_cache = False
 	self.topics = {}
