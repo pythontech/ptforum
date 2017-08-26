@@ -42,7 +42,7 @@ class Site(ptforum.Site):
         if xfeed.tag != atom+'feed':
             raise ValueError('Root element is %s, not atom:feed' % xfeed.tag)
         posts = []
-        for xentry in xfeed.iterfind(atom+'entry'):
+        for xentry in xfeed.findall(atom+'entry'):
             pid = name = datetime = subject = body = None
             # Get author name
             xauthor = xentry.find(atom+'author')
@@ -53,6 +53,7 @@ class Site(ptforum.Site):
             pubdate = xpublished.text # yyyymmddThhmmss
             # Get post URL and hence topic id
             url = xentry.find(atom+'id').text
+            pid = url_params(url)['p'][0]
             tid = url_params(url)['t'][0]
             topic = forum.topic_find(tid)
             # Get post title
