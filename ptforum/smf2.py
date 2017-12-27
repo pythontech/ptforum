@@ -37,15 +37,23 @@ class Site(ptforum.Site):
 	    title = a.string.strip()
 	    tr = subjtd.parent
 	    starttd = tr.find(soup.tagclass('td','starter'))
-	    author = soup.cdata(starttd).strip()
+            if starttd:
+	        author = soup.cdata(starttd).strip()
+            else:
+                author = None
 	    reptd = tr.find(soup.tagclass('td','replies'))
-	    replies = soup.cdata(reptd).strip()
+            if reptd:
+	        replies = soup.cdata(reptd).strip()
+            else:
+                replies = None
 
 	    # Create or update topic
 	    topic = forum.topic_find(tid)
 	    topic.title = title
-	    topic.author = author
-	    topic.replies = replies
+            if author:
+	        topic.author = author
+            if replies:
+	        topic.replies = replies
 
 	    topics.append(topic)
 	return topics
@@ -54,18 +62,18 @@ class Site(ptforum.Site):
 	'''Scan a topic page and get a list of posts'''
 	posts = []
 	doc = soup.BeautifulSoup(html, convertEntities='html')
-	padivs = doc.findAll(soup.tagclass('div','postarea'))
-	for padiv in padivs:
-	    pdiv = padiv.parent
-	    poster = pdiv.find(soup.tagclass('div','poster'))
-	    author = soup.cdata(poster.h4)
-	    keyinfo = padiv.find(soup.tagclass('div','keyinfo'))
+	bmdivs = doc.findAll(soup.tagclass('div','body_message'))
+	for bmdiv in bmdivs:
+	    poster = bmdiv.find(soup.tagclass('div','poster'))
+            h4 = poster.h4
+	    author = soup.cdata(h4).strip()
+	    keyinfo = bmdiv.find(soup.tagclass('div','keyinfo'))
 	    h5 = keyinfo.h5
 	    subject = soup.cdata(h5.a)
 	    dd = h5.findNextSibling('div')
 	    dateetc = soup.cdata(dd).strip()
 	    datetime = fixdate(dateetc)
-	    post = padiv.find(soup.tagclass('div','post'))
+	    post = bmdiv.find(soup.tagclass('div','post'))
             inner = post.find(soup.tagclass('div','inner'))
 	    pid = re.match(r'msg_(\d+)',inner['id']).group(1)
 	    body = unicode(str(inner),'utf-8')
