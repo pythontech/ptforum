@@ -5,7 +5,10 @@ import ptforum
 import re
 import calendar
 import time
-import urlparse
+try:
+    from urlparse import urlparse, parse_qs
+except ImportError:             # PY3
+    from urllib.parse import urlparse, parse_qs
 import xml.etree.ElementTree
 
 # XML namespaces
@@ -93,7 +96,7 @@ def convert_time(date):
     return int(t)
 
 def url_params(url):
-    squery = urlparse.urlparse(url).query
-    params = urlparse.parse_qs(squery)
+    squery = urlparse(url).query
+    params = parse_qs(squery)
     return params
 

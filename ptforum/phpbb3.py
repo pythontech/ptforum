@@ -179,7 +179,7 @@ def fixdate(when):
     '''
     m = re.search(r' (\w{3}) (\d{2}), (\d{4}) (\d+):(\d{2}) (am|pm)', when)
     if not m:
-        print ' no date match',when
+        print(' no date match',when)
         return '?'
     mon,day,year,hh,mm,ampm = m.groups()
     dy = day
