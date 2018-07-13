@@ -132,11 +132,12 @@ class Site(object):
             else:
                 content = self.really_get_page(url)
                 try:
-                    with open(cachefile,'w') as f:
+                    with open(cachefile,'wb') as f:
                         f.write(content)
                 except Exception as e:
                     sys.stderr.write('Cannot write %s: %s\n' %
                                      (cachefile, e.args[0]))
+                    #_logger.error('cache', exc_info=True)
                     pass
         else:
             content = self.really_get_page(url)
