@@ -1,6 +1,8 @@
 #=======================================================================
-#	Scrape phpBB3 forum pages
-#	Converted from phpbb.py
+"""
+Scrape phpBB3 forum pages
+"""
+#       Converted from phpbb.py
 #=======================================================================
 import re
 import time
@@ -13,43 +15,37 @@ t_nRE = re.compile(r'\bt=(\d+)')
 _logger = logging.getLogger('ptforum.phpbb3')
 
 class Site(ptforum.Site):
-    '''Site which uses ppBB'''
+    """Site which uses phpBB"""
 
     def login(self, username, password):
         pass
-    def XXlogin(self, username, password):
-        '''Post login credentials (needed to view some forums)'''
-        html = self.post_page('/login.php', dict(username=username,
-                                                 password=password,
-                                                 login='Log in'))
-        return html
 
     def get_forum_page(self, forum):
-        '''Get the main page for a forum, containing a list of topics.'''
-	html = self.get_page('/viewforum.php',
-                             {'f': forum.forumId})
-	return html
+        """Get the main page for a forum, containing a list of topics."""
+        html = self.get_page('/viewforum.php',
+                             {'f': str(forum.forumId)})
+        return html
 
     def get_topic_page(self, topic):
-        '''Get main page of topic, containing list of posts.'''
-	html = self.get_page('/viewtopic.php',
-                             {'t': topic.tid})
-	return html
+        """Get main page of topic, containing list of posts."""
+        html = self.get_page('/viewtopic.php',
+                             {'t': str(topic.tid)})
+        return html
 
     def get_page(self, url, query={}):
-        '''Get a web page, and fix up badness which even BeautifulSoup can't handle.'''
+        """Get a web page, and fix up badness which even BeautifulSoup can't handle."""
         html = ptforum.Site.get_page(self, url, query)
-        # Pages from forumer bizarrely have <!\227- base url -->
-        # which is an EM DASH in Windows code page 1252
-        html = html.replace('<!\227-','<!--')
-        # Avoid unicode weirdness (BeautifulSoup bug?)
-        html = html.replace('&nbsp;', ' ')
+        ## Pages from forumer bizarrely have <!\227- base url -->
+        ## which is an EM DASH in Windows code page 1252
+        #html = html.replace(b'<!\227-',b'<!--')
+        ## Avoid unicode weirdness (BeautifulSoup bug?)
+        #html = html.replace(b'&nbsp;', b' ')
         return html
 
     def forum_page_topics(self, forum, html):
-	'''Find all the topics on a forum page.
+        """Find all the topics on a forum page.
         Page structure:
-	  <ul class="topiclist topics">
+          <ul class="topiclist topics">
            <li class="row bg1">
             <dl class="row-fluid">
              <dt ...>
@@ -70,9 +66,9 @@ class Site(ptforum.Site):
           <span>
            <a href="./viewforum.php?f=35&start=25">2</a>
         N.B. There may be more than one <ul class="topiclist topics"> 
-        '''
-	topics = []
-	doc = soup.BeautifulSoup(html, convertEntities='html')
+        """
+        topics = []
+        doc = soup.BeautifulSoup(html, features='lxml')
         for index in doc.findAll(soup.tagclass('ul', 'topics')):
             for li in index.findAll('li'):
                 _logger.debug('-- li %s', li['class'])
@@ -121,10 +117,10 @@ class Site(ptforum.Site):
                 topic.replies = replies
 
                 topics.append(topic)
-	return topics
+        return topics
 
     def topic_page_posts(self, topic, html):
-	'''Scan a topic page and get a list of posts
+        """Scan a topic page and get a list of posts
         <div...>
           <h2>SUBJECT</h2>
         </div>
@@ -133,50 +129,75 @@ class Site(ptforum.Site):
           <div class="author">by <strong><a href="./memberlist.php...">AUTHOR</a></strong>
            &raquo; DAY MON DD, YEAR H:MM PM </div>
           <div class="content">BODY</div>
-        '''
-	posts = []
-	doc = soup.BeautifulSoup(html, fromEncoding='utf-8', convertEntities='html')
+        """
+        posts = []
+        doc = soup.BeautifulSoup(html, features='lxml')
         h2 = doc.find('h2')
         title = soup.cdata(h2)
         _logger.info('TITLE %s', title)
         for post in doc.findAll(soup.tagclass('div','post')):
             pid = author = datetime = subject = body = None
             pid = post['id'].lstrip('p')     # E.g. 'p12345' -> '12345'
-            authdiv = post.find(soup.tagclass('div','author'))
-            if not authdiv:
-                _logger.warn('** No div.author')
-            else:
-                a = authdiv.find('a')
-                if not a:
-                    _logger.warn('** no a in div.author')
-                else:
-                    author = soup.cdata(a)
-                    _logger.info('AUTHOR %s' % author)
-                datetime = fixdate(soup.cdata(authdiv))
-                _logger.info('DATETIME %s' % datetime)
+            author, datetime = self.post_author_datetime(post)
             contdiv = post.find(soup.tagclass('div','content'))
             if not contdiv:
                 _logger.warn('** no div.content')
             else:
                 contents = contdiv.contents
-                body = ''.join(map(unicode, contents))
-	    post = ptforum.Post(pid=pid, topic=topic,
+                body = ''.join(str(part) for part in contents)
+            post = ptforum.Post(pid=pid, topic=topic,
                                 author=author, 
                                 datetime=datetime,
                                 subject=subject or title,
                                 body=body)
-	    posts.append(post)
+            posts.append(post)
 
             if not topic.firstpost:
                 topic.firstpost = pid
-	return posts
+        return posts
+
+    def post_author_datetime(self, post):
+        author = datetime = None
+        authdiv = post.find(soup.tagclass('div','author'))
+        if authdiv:
+            a = authdiv.find('a')
+            if not a:
+                _logger.warn('** no a in div.author')
+            else:
+                author = soup.cdata(a)
+                _logger.info('AUTHOR %s' % author)
+            date_cdata = soup.cdata(authdiv)
+            _logger.debug('date %r', date_cdata)
+            datetime = fixdate(date_cdata)
+            _logger.info('DATETIME %s' % datetime)
+        else:
+            profile = post.find(soup.tagclass('dl','postprofile'))
+            if not profile:
+                _logger.warn('** neither div.author nor dl.postprofile')
+            else:
+                a = profile.find('a')
+                if not a:
+                    _logger.warn('** no a in dl.profile')
+                author = soup.cdata(a)
+            authdiv = post.find(soup.tagclass('p','author'))
+            if not authdiv:
+                _logger.warn('** neither div.author nor p.author')
+            a = authdiv.find('a')
+            if not a:
+                _logger.warn('** no a in p.author')
+            else:
+                date_cdata = soup.cdata(a)
+                _logger.debug('date %r', date_cdata)
+                datetime = fixdate(date_cdata)
+                _logger.info('DATETIME %s' % datetime)
+        return author, datetime
 
 Forum = ptforum.Forum
 
 def fixdate(when):
-    '''Convert date and time as given by PhpBB into a timestamp.
+    """Convert date and time as given by PhpBB into a timestamp.
     Input can be e.g. "Sun May 09, 2010 3:06 pm"
-    '''
+    """
     m = re.search(r' (\w{3}) (\d{2}), (\d{4}) (\d+):(\d{2}) (am|pm)', when)
     if not m:
         print(' no date match',when)
@@ -187,9 +208,9 @@ def fixdate(when):
               Jul=7,Aug=8,Sep=9,Oct=10,Nov=11,Dec=12)[mon]
     hr = int(hh)
     if ampm=='pm':
-	if hr != 12: hr += 12
+        if hr != 12: hr += 12
     else:
-	if hr == 12: hr -= 12
+        if hr == 12: hr -= 12
     # Assumes in current timezone
-    t = time.mktime(map(int,(year,mn,dy, hr,mm,0, -1,-1,0)))
+    t = time.mktime(tuple(int(x) for x in (year,mn,dy, hr,mm,0, -1,-1,0)))
     return int(t)
