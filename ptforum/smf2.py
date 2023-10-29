@@ -30,7 +30,7 @@ class Site(ptforum.Site):
     def forum_page_topics(self, forum, html):
         '''Find all the topics on a forum page'''
         topics = []
-        doc = soup.BeautifulSoup(html, convertEntities='html')
+        doc = soup.BeautifulSoup(html, features='lxml')
         index = doc.find('div', id='messageindex')
         subjtds = index.findAll(soup.tagclass('td','subject'))
         for subjtd in subjtds:
@@ -65,7 +65,7 @@ class Site(ptforum.Site):
     def topic_page_posts(self, topic, html):
         '''Scan a topic page and get a list of posts'''
         posts = []
-        doc = soup.BeautifulSoup(html, convertEntities='html')
+        doc = soup.BeautifulSoup(html, features='lxml')
         bmdivs = doc.findAll(soup.tagclass('div','body_message'))
         for bmdiv in bmdivs:
             poster = bmdiv.find(soup.tagclass('div','poster'))
@@ -80,7 +80,7 @@ class Site(ptforum.Site):
             post = bmdiv.find(soup.tagclass('div','post'))
             inner = post.find(soup.tagclass('div','inner'))
             pid = re.match(r'msg_(\d+)',inner['id']).group(1)
-            body = unicode(str(inner),'utf-8')
+            body = str(inner)
             # print 'body=',repr(body)
             # print ("pid=%s author=%s datetime=%s subject=%s body=%s" % \
             # (pid,author,dateetc,subject,body)).encode('utf-8')
@@ -122,5 +122,5 @@ def fixdate(when):
     else:
         if hr == 12: hr -= 12
     # Assumes in current timezone
-    t = time.mktime([year,mn,dy, hr,int(mm),int(ss), -1,-1,0])
+    t = time.mktime((year,mn,dy, hr,int(mm),int(ss), -1,-1,0))
     return int(t)
