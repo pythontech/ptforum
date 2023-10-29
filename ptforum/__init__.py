@@ -3,6 +3,7 @@
 #=======================================================================
 import logging
 import os
+import subprocess
 import re
 import sys
 PY3 = sys.version_info[0] >= 3
@@ -87,18 +88,21 @@ class Site(object):
         zauthor,n = re.subn(r'[^-A-Za-z0-9]+','_', post.author)
         fromm = _subst(self.fromPattern, u=zauthor)
         msgid = _subst(self.messageIdPattern, p=post.pid)
-        hbody = '<html><body>%s</body></html>' % post.body.encode('utf-8')
+        hbody = ('<html><body>' +
+                 post.body +
+                 '</body></html>').encode('utf-8')
         try:
             from email.Message import Message 
             from email.Header import Header
             from email.Utils import formatdate
             # Force quoted-printable for utf-8 instead of base64 (for Thunderbird "View source")
             import email.Charset as cs
-            cs.add_charset('utf-8', cs.SHORTEST, cs.QP, 'utf-8')
         except ImportError:
             from email.message import Message
             from email.header import Header
             from email.utils import formatdate
+            import email.charset as cs
+        #cs.add_charset('utf-8', cs.SHORTEST, cs.QP, 'utf-8')
         msg = Message()
         msg.add_header('From', fromm)
         msg.add_header('To', forum.recipient)
@@ -115,7 +119,10 @@ class Site(object):
         msg.set_payload(hbody)
         msg.set_type('text/html')
         msg.set_charset('utf-8')
-        return msg.as_string()
+        if hasattr(msg, 'as_bytes'): # PY3
+            return msg.as_bytes()
+        else:
+            return msg.as_string()
 
     def get_page(self, relurl, query={}):
         '''Get a page from the site.  If cacheDir defined, use file from there, if present.'''
@@ -264,9 +271,11 @@ class Forum(object):
                     posts.append(post)
         else:
             topics = self.site.forum_page_topics(self, page)
+            _logger.info('forum %s topic=%d', self.forumId, len(topics))
             for topic in topics:
                 posts += self.topic_new_posts(topic)
         posts.sort(key=lambda p: p.datetime)
+        _logger.debug('forum %s new_posts=%d', self.forumId, len(posts))
         return posts
 
     def topic_find(self, tid):
@@ -284,7 +293,10 @@ class Forum(object):
         '''Get the new posts on ths topic'''
         html = self.site.get_topic_page(topic)
         posts = self.site.topic_page_posts(topic, html)
-        return [p  for p in posts  if p.is_new()]
+        new_posts = [p  for p in posts  if p.is_new()]
+        _logger.info('topic %s posts=%d new=%d',
+                     topic.tid, len(posts), len(new_posts))
+        return new_posts
 
     def update_lastposts(self, posts):
         '''Update lastpost attribute of topics to include given posts'''
@@ -302,11 +314,11 @@ class Forum(object):
             _logger.info('posting %s', post.pid)
             cmd = self.site.sendmail+' -t -oi'
             _logger.debug('command %r', cmd)
-            with open(os.path.expanduser('~/ptforum-tmp.eml'),'w') as f:
-                f.write(email)
-            f = os.popen(cmd,'w')
-            f.write(email)
-            rc = f.close()
+            if False:
+                with open(os.path.expanduser('~/ptforum-tmp.eml'),'wb') as f:
+                    f.write(email)
+            p = subprocess.Popen(cmd, shell=True, stdin=subprocess.PIPE)
+            p.communicate(email)
 
 class Topic(object):
     def __init__(self, tid, title=None, author=None, replies=0, firstpost=None, lastpost=None):
