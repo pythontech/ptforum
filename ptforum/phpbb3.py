@@ -86,8 +86,8 @@ class Site(ptforum.Site):
         topics = []
         doc = soup.BeautifulSoup(html, features='lxml')
         for index in doc.findAll(soup.tagclass('ul', 'topics')):
-            for li in index.findAll('li'):
-                _logger.debug('-- li %s', li['class'])
+            for li in index.findAll('li', recursive=False): # Ignore pagination
+                _logger.debug('-- li %s', li.get('class'))
                 dl = li.find('dl')
                 dt = dl.find('dt')
                 title = tid = replies = author = lastpost = None
