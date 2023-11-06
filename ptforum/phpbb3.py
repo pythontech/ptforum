@@ -11,6 +11,7 @@ import ptforum.soup as soup
 import logging
 
 t_nRE = re.compile(r'\bt=(\d+)')
+p_nRE = re.compile(r'\bp=(\d+)')
 
 _logger = logging.getLogger('ptforum.phpbb3')
 
@@ -65,6 +66,21 @@ class Site(ptforum.Site):
          <div class="paging ...">
           <span>
            <a href="./viewforum.php?f=35&start=25">2</a>
+
+        OR
+
+        <>
+         <li class="row bg2">
+          <dl class="icon topic_read">
+           <dt title="No unread posts">
+            <div class="list-inner">
+             <a class="topictitle" href="./viewtopic.php?t=@TID">@TITLE</a>
+             <span class="topic-ap"><i></i></span> by
+             <a class="username" href="./memberlist.php?...u=@UID">@USER</a>
+             * Thus Oct 26, 2023 7:53 am
+             <div class="r-lastpost-container">
+              <a class="r-lastpost" href="./viewtopic.php?p=@PID#@PID" title="...">
+               <i></i></a>
         N.B. There may be more than one <ul class="topiclist topics"> 
         """
         topics = []
@@ -104,12 +120,13 @@ class Site(ptforum.Site):
                             for a in dd.findAll('a'):
                                 href = a['href']
                                 if 'viewtopic.php' in href.split('?')[0]:
-                                    m = t_nRE.search(href)
+                                    m = p_nRE.search(href)
                                     if m:
                                         lastpost = m.group(1)
                                         _logger.info('LASTPOST %s', lastpost)
                                     else:
-                                        _logger.warn('** no lastpost')
+                                        _logger.warn('** t=%s no lastpost',
+                                                     tid)
                 # Create or update topic
                 topic = forum.topic_find(tid)
                 topic.title = title
